@@ -35,19 +35,18 @@ export function Hero() {
              {/* Decorative blob background */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[120%] h-[120%] bg-teal-500/10 blur-[100px] rounded-full -z-10" />
             
-            <div className="relative mx-auto w-full card-soft overflow-hidden p-2">
-              <div className="aspect-4/3 bg-zinc-50 dark:bg-zinc-800/50 rounded-3xl flex items-center justify-center overflow-hidden">
-                {/* Actual app interface screenshot */}
-                <div className="relative w-full aspect-square md:aspect-auto md:h-full lg:aspect-square flex items-center justify-center p-4 sm:p-8">
-                  <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-xl ring-1 ring-zinc-900/10">
-                    <Image 
-                      src="/assets/images/samples/aac.png" 
-                      alt="Skillio AAC Interface" 
-                      fill
-                      className="object-cover object-top"
-                    />
-                  </div>
-                </div>
+            <div className="relative mx-auto w-4/5 sm:w-2/3 md:w-1/2 lg:w-4/5 xl:w-2/3 card-soft overflow-hidden p-2">
+              <div className="bg-zinc-50 dark:bg-zinc-800/50 rounded-3xl flex items-center justify-center overflow-hidden border border-zinc-100 dark:border-zinc-800">
+                <Image 
+                  src="/assets/images/samples/aac.png" 
+                  alt="Skillio AAC Interface" 
+                  width={1170}
+                  height={2532}
+                  quality={100}
+                  sizes="(max-width: 768px) 80vw, (max-width: 1024px) 50vw, 40vw"
+                  className="w-full h-auto object-contain bg-zinc-50 dark:bg-zinc-900"
+                  priority
+                />
               </div>
             </div>
           </div>
