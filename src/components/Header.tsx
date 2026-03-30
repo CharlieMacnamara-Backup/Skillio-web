@@ -6,12 +6,12 @@ import { cn } from "@/lib/utils";
 
 export function Header() {
   return (
-    <header className="pointer-events-none fixed top-0 left-0 right-0 z-50 flex flex-none flex-col">
+    <header className="fixed top-0 left-0 right-0 z-50 flex flex-none flex-col">
       <div className="h-20 pt-6">
         <Container className="pointer-events-auto">
           <div className={cn(
             "flex gap-4 items-center glass rounded-full px-6 py-2 border-zinc-200/50 dark:border-zinc-700/30",
-            "shadow-sm transition-shadow hover:shadow-md"
+            "shadow-sm transition-shadow hover:shadow-md bg-white/70 dark:bg-zinc-900/70 backdrop-blur-md"
           )}>
             <div className="flex flex-1">
               <Link href="/" className="flex items-center gap-2 group">

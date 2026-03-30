@@ -4,7 +4,7 @@ import { Container } from "./Container";
 
 export function Hero() {
   return (
-    <div className="relative pt-20 pb-16 lg:pt-32 lg:pb-24">
+    <div className="relative pt-20 pb-8 lg:pt-32 lg:pb-12">
       <Container>
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
           <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
@@ -31,7 +31,7 @@ export function Hero() {
               </div>
             </div>
           </div>
-          <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
+          <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6">
              {/* Decorative blob background */}
              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[120%] h-[120%] bg-teal-500/10 blur-3xl rounded-full -z-10" />
             

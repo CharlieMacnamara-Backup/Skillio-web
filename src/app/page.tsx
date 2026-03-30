@@ -5,7 +5,7 @@ import { Container } from "@/components/Container";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-20 pb-20">
+    <div className="flex flex-col gap-12 pb-20">
       <Hero />
       
       <Container id="features">
