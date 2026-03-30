@@ -26,14 +26,14 @@ export function Header() {
             <div className="flex flex-1 justify-end md:justify-center">
               <nav className="hidden md:block">
                 <ul className="flex gap-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
-                  <NavItem href="#how-it-works">How it Works</NavItem>
-                  <NavItem href="#features">Features</NavItem>
-                  <NavItem href="#get-started">Pricing</NavItem>
+                  <NavItem href="/#how-it-works">How it Works</NavItem>
+                  <NavItem href="/#features">Features</NavItem>
+                  <NavItem href="/#get-started">Pricing</NavItem>
                 </ul>
               </nav>
             </div>
             <div className="flex justify-end items-center flex-1">
-               <Link href="#get-started" className="hidden sm:block text-sm font-bold px-5 py-2 rounded-full bg-zinc-900 text-white hover:bg-zinc-800 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-100 transition-colors shadow-md">
+               <Link href="/#get-started" className="hidden sm:block text-sm font-bold px-5 py-2 rounded-full bg-zinc-900 text-white hover:bg-zinc-800 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-100 transition-colors shadow-md">
                  Get Started
                </Link>
             </div>
