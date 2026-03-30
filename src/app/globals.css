@@ -32,9 +32,9 @@ body {
 }
 
 .btn-premium {
-  @apply relative inline-flex items-center justify-center px-8 py-3 font-semibold text-white transition-colors duration-200 rounded-[2rem] bg-teal-500 hover:bg-teal-400 shadow-sm active:bg-teal-600;
+  @apply relative inline-flex items-center justify-center px-8 py-3 font-semibold text-white transition-colors duration-200 rounded-4xl bg-teal-500 hover:bg-teal-400 shadow-sm active:bg-teal-600;
 }
 
 .card-soft {
-  @apply rounded-[2rem] bg-white border border-zinc-100 shadow-sm dark:bg-zinc-800 dark:border-zinc-700/50;
+  @apply rounded-4xl bg-white border border-zinc-100 shadow-sm dark:bg-zinc-800 dark:border-zinc-700/50;
 }
