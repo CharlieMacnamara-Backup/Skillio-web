@@ -34,6 +34,7 @@ export function Header() {
                     alt="Skillio Logo" 
                     width={40} 
                     height={40}
+                    sizes="40px"
                     className="object-contain"
                   />
                 </div>

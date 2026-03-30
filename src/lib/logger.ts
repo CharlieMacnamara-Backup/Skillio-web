@@ -3,7 +3,7 @@
  */
 export const logger = {
   logEvent: (component: string, event: string, metadata?: any) => {
-    console.log(`[EVENT] [${component}] ${event}`, metadata || "");
+    console.warn(`[EVENT] [${component}] ${event}`, metadata || "");
   },
   
   logError: (component: string, error: string, metadata?: any) => {
@@ -11,10 +11,10 @@ export const logger = {
   },
   
   logStateChange: (component: string, from: any, to: any) => {
-    console.log(`[STATE] [${component}] Changed from:`, from, "to:", to);
+    console.warn(`[STATE] [${component}] Changed from:`, from, "to:", to);
   },
   
   logResource: (resource: string, status: 'mounted' | 'disposed') => {
-    console.log(`[RESOURCE] [${resource}] ${status.toUpperCase()}`);
+    console.warn(`[RESOURCE] [${resource}] ${status.toUpperCase()}`);
   }
 };

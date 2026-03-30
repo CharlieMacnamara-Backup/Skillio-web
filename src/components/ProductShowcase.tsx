@@ -4,39 +4,39 @@ import Image from "next/image";
 const featureBlocks = [
   {
     title: 'Your Voice, Your Way',
-    description: 'Tap words to build sentences. Choose the symbols that match your thoughts. Easily customize your grid and auto-generate synonyms to expand your vocabulary exactly how you need it.',
+    description: 'Build sentences with a tap. Choose icons that match your thoughts. Customize your grid and expand your vocabulary on the fly.',
     imageSrc: '/assets/images/samples/aac.png',
-    imageAlt: 'AAC Communication Board',
+    imageAlt: 'Skillio AAC Communication Board with customizable grid and symbol support',
     secondaryImages: ['/assets/images/samples/aac-custom-form.png', '/assets/images/samples/synonym.png'],
     align: 'right'
   },
   {
     title: 'Master Breath',
-    description: 'Follow the movement to calm the mind. Control your focus and find your center. Use visual breathing patterns and digital fidget tools for immediate sensory support.',
+    description: 'Follow the motion. Calm the mind and find focus. Integrated breathing patterns and digital fidgets for instant support.',
     imageSrc: '/assets/images/samples/breathing-control.png',
-    imageAlt: 'Breathing Control Visual',
+    imageAlt: 'Skillio Breathing Control Visual Tool for sensory regulation',
     secondaryImages: ['/assets/images/samples/fidget-nav.png'],
     align: 'left'
   },
   {
     title: 'Step into the Frame',
-    description: 'Align your reflection with the target. Show your emotion and witness the match. Interactive Emotion Cards provide a safe way to practice identifying and expressing feelings.',
+    description: 'Align your reflection. Express yourself and see the match. Interactive cards for identifying and sharing feelings.',
     imageSrc: '/assets/images/samples/emotion card.png',
-    imageAlt: 'Emotion Cards Interface',
+    imageAlt: 'Skillio Emotion Cards Interface showing interactive social practice',
     secondaryImages: [],
     align: 'right'
   },
   {
     title: 'Master the Studio',
-    description: 'Record and perfect. Capture your voice and refine every word. Use the Echo Studio and Syllable Lab to break down tricky phrases piece by piece and build your mastery.',
+    description: 'Capture and refine. Use the Echo Studio to break down tricky phrases and master your voice, step by step.',
     imageSrc: '/assets/images/samples/studio.png',
-    imageAlt: 'Echo Studio Recording Interface',
+    imageAlt: 'Skillio Echo Studio Recording and Voice Analysis Interface',
     secondaryImages: [],
     align: 'left'
   },
   {
     title: 'Outsmart the Play',
-    description: 'Take turns and share strategies. Claim your space on the board. Practice social interactions in a structured environment through games like Tik-Tac-Toe.',
+    description: 'Take turns and build strategies. Practice social interaction in a structured, competitive, and safe space.',
     imageSrc: '/assets/images/samples/tik-tak-toe.png',
     imageAlt: 'Tik-Tac-Toe Interactive Game',
     secondaryImages: [],
@@ -96,7 +96,7 @@ export function ProductShowcase() {
                       <div className="rounded-3xl overflow-hidden border border-zinc-100 dark:border-zinc-800">
                       <Image 
                         src={feature.secondaryImages[0]} 
-                        alt="Secondary feature"
+                        alt="Secondary Skillio interface feature showing customization"
                         width={1170}
                         height={2532}
                         quality={100}
@@ -111,7 +111,7 @@ export function ProductShowcase() {
                       <div className="rounded-3xl overflow-hidden border border-zinc-100 dark:border-zinc-800">
                       <Image 
                         src={feature.secondaryImages[1]} 
-                        alt="Additional feature"
+                        alt="Additional Skillio interface feature showing synonyms"
                         width={1170}
                         height={2532}
                         quality={100}

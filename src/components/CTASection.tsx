@@ -20,10 +20,10 @@ export function CTASection() {
       <Container className="relative">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl font-display">
-            Ready to give your voice a boost?
+            Communicate on your terms.
           </h2>
           <p className="mt-4 text-lg leading-6 text-indigo-100">
-            Join thousands of users who are already communicating with confidence using Skillio. Lifetime access for just £30.
+            Communicate with confidence. Join thousands of users on Skillio. Lifetime access for £30.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link 

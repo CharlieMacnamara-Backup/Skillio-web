@@ -21,8 +21,45 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Skillio | Empowering Communication & Social Skills",
-  description: "Skillio is a cutting-edge AAC application designed to help individuals develop social skills and communicate more effectively.",
+  metadataBase: new URL("https://skillio-app.uk"),
+  title: {
+    default: "Skillio | Empowering Communication & Social Skills",
+    template: "%s | Skillio"
+  },
+  description: "Skillio is a sensory-safe, AAC-first application designed for neurodivergent minds. Unlock connection with customizable communication tools, emotional regulation, and social practice.",
+  keywords: ["AAC", "Neurodivergent", "Autism", "Communication App", "Sensory-Safe", "Social Skills", "Speech Therapy", "Non-verbal communication"],
+  authors: [{ name: "Skillio Team" }],
+  creator: "Skillio",
+  publisher: "Skillio",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  openGraph: {
+    title: "Skillio | Empowering Communication & Social Skills",
+    description: "Unlocking connection for every mind. Discover the leading AAC-first toolkit for neurodivergent individuals.",
+    url: "https://skillio-app.uk",
+    siteName: "Skillio",
+    locale: "en_GB",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Skillio | Empowering Communication & Social Skills",
+    description: "Sensory-safe communication for every mind. Join the Skillio community.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 

@@ -19,15 +19,15 @@ export function Hero() {
           <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
             <h1>
               <span className="block text-sm font-bold tracking-widest text-teal-600 uppercase dark:text-teal-400 font-display">
-                Communicate Your Way
+                Communicate on your terms
               </span>
               <span className="mt-2 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl font-display leading-[1.1]">
-                <span className="block text-zinc-900 dark:text-zinc-100">Find your voice with</span>
-                <span className="block gradient-text">Skillio</span>
+                <span className="block text-zinc-900 dark:text-zinc-100">Unlock connection for</span>
+                <span className="block gradient-text">Every Mind</span>
               </span>
             </h1>
             <p className="mt-4 text-base text-zinc-600 dark:text-zinc-400 sm:mt-6 sm:text-xl lg:text-lg xl:text-xl leading-relaxed">
-              Connect with the world on your terms. Skillio combines customizable communication boards with tools for emotional regulation and social practice.
+              Unlock connection. Customizable tools for communication, emotional regulation, and social practice. Sensory-safe by design.
             </p>
             <div className="mt-10 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
               <div className="flex flex-col sm:flex-row gap-5">
@@ -59,7 +59,7 @@ export function Hero() {
               <div className="bg-zinc-50 dark:bg-black rounded-3xl flex items-center justify-center overflow-hidden border border-zinc-100 dark:border-zinc-800/50">
                 <Image 
                   src="/assets/images/samples/aac.png" 
-                  alt="Skillio AAC Interface" 
+                  alt="Skillio Sensory-Safe AAC Interface on iPad" 
                   width={1170}
                   height={2532}
                   quality={100}
