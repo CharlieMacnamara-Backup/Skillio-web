@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Container } from "./Container";
 
 export function Hero() {
@@ -36,14 +37,16 @@ export function Hero() {
             
             <div className="relative mx-auto w-full rounded-3xl shadow-2xl overflow-hidden glass border-white/20">
               <div className="aspect-4/3 bg-zinc-100 dark:bg-zinc-800 flex items-center justify-center">
-                {/* Visual placeholder for the app interface */}
-                <div className="grid grid-cols-4 gap-4 p-8 w-full max-w-md">
-                   {[...Array(12)].map((_, i) => (
-                     <div key={i} className="aspect-square rounded-xl bg-white shadow-sm ring-1 ring-zinc-900/5 flex flex-col items-center justify-center p-2 transition-transform hover:scale-105 dark:bg-zinc-700 dark:ring-white/10">
-                        <div className={`w-8 h-8 rounded-full mb-1 ${i % 4 === 0 ? 'bg-orange-400' : i % 4 === 1 ? 'bg-pink-400' : i % 4 === 2 ? 'bg-blue-400' : 'bg-yellow-400'}`} />
-                        <div className="h-2 w-10 bg-zinc-200 rounded dark:bg-zinc-600" />
-                     </div>
-                   ))}
+                {/* Actual app interface screenshot */}
+                <div className="relative w-full aspect-square md:aspect-auto md:h-full lg:aspect-square flex items-center justify-center p-4 sm:p-8">
+                  <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-xl ring-1 ring-zinc-900/10">
+                    <Image 
+                      src="/assets/images/samples/aac.png" 
+                      alt="Skillio AAC Interface" 
+                      fill
+                      className="object-cover object-top"
+                    />
+                  </div>
                 </div>
               </div>
             </div>

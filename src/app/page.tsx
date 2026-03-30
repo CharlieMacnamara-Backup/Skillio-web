@@ -12,18 +12,18 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div className="p-8 rounded-3xl glass border-indigo-100 dark:border-indigo-900/30">
             <div className="text-4xl mb-4">🎨</div>
-            <h3 className="text-xl font-bold font-display mb-2">Beautifully Simple</h3>
-            <p className="text-zinc-500 dark:text-zinc-400">Designed with modern aesthetics that make communication delightful and less intimidating.</p>
+            <h3 className="text-xl font-bold font-display mb-2">Accessible & Sensory-Friendly</h3>
+            <p className="text-zinc-500 dark:text-zinc-400">Designed with soft colors, reduced visual load, and deeply customizable interfaces to prevent overwhelm.</p>
           </div>
           <div className="p-8 rounded-3xl glass border-purple-100 dark:border-purple-900/30">
-            <div className="text-4xl mb-4">🚀</div>
-            <h3 className="text-xl font-bold font-display mb-2">Fast & Responsive</h3>
-            <p className="text-zinc-500 dark:text-zinc-400">Zero lag time between thought and expression. Speed is our top priority for accessibility.</p>
+            <div className="text-4xl mb-4">🧘</div>
+            <h3 className="text-xl font-bold font-display mb-2">Emotional Regulation</h3>
+            <p className="text-zinc-500 dark:text-zinc-400">Integrated breathing exercises, emotion cards, and digital fidget tools help maintain focus and calm.</p>
           </div>
           <div className="p-8 rounded-3xl glass border-teal-100 dark:border-teal-900/30">
-            <div className="text-4xl mb-4">🌍</div>
-            <h3 className="text-xl font-bold font-display mb-2">Universal Design</h3>
-            <p className="text-zinc-500 dark:text-zinc-400">Built for everyone. Highly customizable to meet diverse physical and cognitive needs.</p>
+            <div className="text-4xl mb-4">🕹️</div>
+            <h3 className="text-xl font-bold font-display mb-2">Interactive Learning</h3>
+            <p className="text-zinc-500 dark:text-zinc-400">Structured games and scenario practices bridge the gap between structured communication and genuine connection.</p>
           </div>
         </div>
       </Container>
