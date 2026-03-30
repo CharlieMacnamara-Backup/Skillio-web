@@ -16,7 +16,7 @@
 
 body {
   font-family: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system, sans-serif;
-  @apply bg-zinc-50 text-zinc-900 antialiased dark:bg-zinc-950 dark:text-zinc-100;
+  @apply bg-zinc-50 text-zinc-900 antialiased dark:bg-black dark:text-zinc-100;
 }
 
 .font-display {
@@ -24,7 +24,7 @@ body {
 }
 
 .glass {
-  @apply bg-white/70 backdrop-blur-md border border-white/20 dark:bg-zinc-900/70 dark:border-white/10;
+  @apply bg-white/70 backdrop-blur-md border border-zinc-200/50 dark:bg-zinc-900/70 dark:border-white/10 shadow-sm transition-shadow duration-300;
 }
 
 .gradient-text {
@@ -32,9 +32,9 @@ body {
 }
 
 .btn-premium {
-  @apply relative inline-flex items-center justify-center px-8 py-3 font-semibold text-white transition-colors duration-200 rounded-4xl bg-teal-500 hover:bg-teal-400 shadow-sm active:bg-teal-600;
+  @apply relative inline-flex items-center justify-center px-8 py-3 font-semibold text-white transition-all duration-200 rounded-full bg-teal-500 hover:bg-teal-400 shadow-sm hover:shadow-md active:scale-95;
 }
 
 .card-soft {
-  @apply rounded-4xl bg-white border border-zinc-100 shadow-sm dark:bg-zinc-800 dark:border-zinc-700/50;
+  @apply rounded-3xl bg-white border border-zinc-100 shadow-sm dark:bg-zinc-900 dark:border-zinc-800/50 transition-all duration-300;
 }
