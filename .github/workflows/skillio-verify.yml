@@ -1,0 +1,30 @@
+name: Skillio 10x CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  verify:
+    name: 10x Audit & Build Verification
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          
+      - name: Install Dependencies
+        run: npm ci
+        
+      - name: Skillio 10x Audit (Declarative + Security)
+        run: npm run verify
+          
+      - name: Next.js 16 Build Verification (OpenNext)
+        run: npm run build

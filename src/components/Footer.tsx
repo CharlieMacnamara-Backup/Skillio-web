@@ -1,21 +1,24 @@
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import Image from "next/image";
 import { Container } from "./Container";
+import { useTranslations } from "next-intl";
 
 export function Footer() {
+  const t = useTranslations("Footer");
+
   return (
-    <footer className="mt-32 flex-none bg-zinc-50 dark:bg-black">
-      <div className="border-t border-zinc-100 pb-16 pt-16 dark:border-zinc-800/50">
+    <footer className="mt-20 md:mt-32 flex-none bg-zinc-50 dark:bg-black">
+      <div className="border-t border-zinc-100 py-10 md:py-16 dark:border-zinc-800/50">
         <Container>
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-10 lg:gap-12">
             {/* Brand Column */}
             <div className="md:col-span-5 lg:col-span-4">
-              <Link href="/" className="flex items-center gap-3 group mb-6">
+              <Link href="/" className="flex items-center gap-3 group mb-4 md:mb-6">
                 <div className="relative h-10 w-10 flex items-center justify-center rounded-xl bg-teal-50 dark:bg-teal-900/30 overflow-hidden shadow-sm">
                   <Image 
                     src="/assets/images/intro-icon-square.png" 
-                    alt="Skillio Logo" 
-                    width={40} 
+                    alt={t("logoAlt")} 
+                    width={40}
                     height={40}
                     sizes="40px"
                     className="object-contain"
@@ -26,34 +29,34 @@ export function Footer() {
                 </span>
               </Link>
               <p className="text-zinc-500 dark:text-zinc-400 max-w-sm leading-relaxed">
-                Empowering individuals through sensory-safe communication tools and meaningful social practice. Join us in building a more inclusive world.
+                {t("description")}
               </p>
             </div>
 
             {/* Links Column */}
             <div className="md:col-span-3 lg:col-span-4">
-               <h4 className="font-display font-bold text-zinc-900 dark:text-white mb-6">Product</h4>
+               <h4 className="font-display font-bold text-zinc-900 dark:text-white mb-4 md:mb-6">{t("columns.product")}</h4>
                <ul className="space-y-4 text-sm font-medium text-zinc-600 dark:text-zinc-400">
-                 <li><Link href="/#how-it-works" className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors">How it Works</Link></li>
-                 <li><Link href="/#features" className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors">Key Features</Link></li>
-                 <li><Link href="/#get-started" className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors">Pricing</Link></li>
+                 <li><Link href="/#how-it-works" className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.howItWorks")}</Link></li>
+                 <li><Link href="/#features" className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.features")}</Link></li>
+                 <li><Link href="/#get-started" className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.pricing")}</Link></li>
                </ul>
             </div>
 
             {/* Legal Column */}
              <div className="md:col-span-4 lg:col-span-4 text-left">
-               <h4 className="font-display font-bold text-zinc-900 dark:text-white mb-6">Support & Legal</h4>
+               <h4 className="font-display font-bold text-zinc-900 dark:text-white mb-4 md:mb-6">{t("columns.legal")}</h4>
                <ul className="space-y-4 text-sm font-medium text-zinc-600 dark:text-zinc-400">
-                 <li><Link href="/privacy" className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors">Privacy Policy</Link></li>
-                 <li><Link href="/terms" className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors">Terms of Service</Link></li>
-                 <li><a href="mailto:support@skillio.com" className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors">Contact Support</a></li>
+                 <li><Link href="/privacy" className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.privacy")}</Link></li>
+                 <li><Link href="/terms" className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.terms")}</Link></li>
+                 <li><a href="mailto:support@skillio.com" className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.contact")}</a></li>
                </ul>
             </div>
           </div>
 
-          <div className="mt-16 pt-8 border-t border-zinc-100 dark:border-zinc-800/50 flex flex-col md:flex-row justify-between items-center gap-6">
+          <div className="mt-10 md:mt-16 pt-6 md:pt-8 border-t border-zinc-100 dark:border-zinc-800/50 flex flex-col md:flex-row justify-between items-center gap-6">
             <p className="text-sm text-zinc-400 dark:text-zinc-500 font-medium">
-              © 2026 Skillio App. All rights reserved.
+              {t("copyright")}
             </p>
             <div className="flex gap-6">
               <div className="h-5 w-5 bg-zinc-200 dark:bg-zinc-800 rounded-full hover:bg-teal-500 transition-colors cursor-not-allowed" />

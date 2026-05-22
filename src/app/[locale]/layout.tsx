@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Outfit } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
 import { ThemeProvider } from "next-themes";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -14,6 +16,12 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+const locales = ["en"];
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -63,14 +71,19 @@ export const metadata: Metadata = {
 };
 
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{ locale: string }>;
 }>) {
+  const { locale } = await params;
+  const messages = await getMessages();
+
   return (
     <html
-      lang="en"
+      lang={locale}
       suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} ${outfit.variable} h-full antialiased scroll-smooth scroll-pt-20`}
     >
@@ -86,11 +99,13 @@ export default function RootLayout({
               <div className="w-full bg-white ring-1 ring-zinc-100 dark:bg-zinc-900 dark:ring-zinc-300/20" />
             </div>
           </div>
-          <Header />
-          <div className="relative flex flex-col flex-1">
-             <main className="flex-auto">{children}</main>
-             <Footer />
-          </div>
+          <NextIntlClientProvider messages={messages}>
+            <Header />
+            <div className="relative flex flex-col flex-1">
+               <main className="flex-auto">{children}</main>
+               <Footer />
+            </div>
+          </NextIntlClientProvider>
         </ThemeProvider>
       </body>
     </html>

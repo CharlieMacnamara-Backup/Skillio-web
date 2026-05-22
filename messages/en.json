@@ -1,0 +1,331 @@
+{
+  "Common": {
+    "loading": "Loading Skillio...",
+    "loadingDocument": "Loading Document..."
+  },
+  "Header": {
+    "logoAlt": "Skillio Logo",
+    "nav": {
+      "howItWorks": "How it Works",
+      "features": "Features",
+      "pricing": "Pricing"
+    }
+  },
+  "Hero": {
+    "badge": "No Subscriptions. No Cloud Latency.",
+    "titlePrefix": "A Lifetime Voice for",
+    "titleSuffix": "Every Student",
+    "description": "A secure, 100% offline speech environment. Eliminate school Wi-Fi dependency, subscription paywalls, and student data tracking.",
+    "cta": {
+      "getStarted": "Get Started for £30",
+      "howItWorks": "See How it Works"
+    },
+    "footer": "One-time purchase. Lifetime access.",
+    "imageAlt": "Skillio Sensory-Safe AAC Interface on iPad"
+  },
+  "Features": {
+    "sensory": {
+      "title": "Sensory-Safe Boards",
+      "description": "Soft color palettes and structured grids prevent visual fatigue during long classroom sessions."
+    },
+    "regulation": {
+      "title": "Focus Spaces",
+      "description": "Instant, offline visual breathing guides and tactile fidgets ground focus inside the workspace."
+    },
+    "play": {
+      "title": "Pressure-Free Play",
+      "description": "Fosters low-pressure social interaction and turn-taking through integrated communication games."
+    }
+  },
+  "AACDemo": {
+    "title": "Built for Classroom Realities",
+    "description": "Stop wrestling with dropped school Wi-Fi and locked student profiles. Handcrafted to eliminate setup friction, run entirely offline, and speak without delay.",
+    "tabs": {
+      "grid": "Speech Board",
+      "studio": "Vocabulary Studio",
+      "sensory": "Sensory Spaces",
+      "accessibility": "School Settings"
+    },
+    "features": {
+      "grid": {
+        "title": "Clinical Core Speech Board",
+        "description": "Tactile, Fitzgerald Key color-coded grid designed to lower cognitive overhead and speed up sentence construction.",
+        "badge": "Clinical Standard",
+        "bullet1": "High-contrast Fitzgerald layouts structure parts of speech clearly",
+        "bullet2": "Runs entirely offline with zero dependence on classroom Wi-Fi",
+        "bullet3": "Sub-second speech synthesis prevents physical or tactile frustration"
+      },
+      "studio": {
+        "title": "Custom Vocabulary Studio",
+        "description": "Enables teachers and speech therapists to customize grids instantly on-device without internet access.",
+        "badge": "On-Device",
+        "bullet1": "Build custom color-coded tiles with built-in icons in seconds",
+        "bullet2": "On-device synonym assistant broadens user vocabulary naturally",
+        "bullet3": "Export and sync customized boards across school tablets seamlessly"
+      },
+      "sensory": {
+        "title": "Calm Sensory Regulation",
+        "description": "Combats classroom overstimulation with physical grounding exercises housed directly inside the speech board.",
+        "badge": "Sensory-Safe",
+        "bullet1": "Paced visual breathing tools expand and contract to slow heart rate",
+        "bullet2": "Tactile digital fidgets ground motor anxiety without disrupting peers",
+        "bullet3": "Instant visual distress cards express emotional states in one tap"
+      },
+      "accessibility": {
+        "title": "VPP-Ready Accessibility",
+        "description": "Engineered for rapid institutional deployment without continuous accounts or login overhead.",
+        "badge": "IT & Admin Friendly",
+        "bullet1": "Fully compatible with Apple Volume Purchase Program (VPP)",
+        "bullet2": "Launches instantly without requiring school email accounts or verification",
+        "bullet3": "Adapts target sizes and touch timings to physical dexterity needs"
+      }
+    }
+  },
+  "ProductShowcase": {
+    "title": "A Complete Toolkit.",
+    "description": "A single clinical workspace containing everything required for daily communication, emotional regulation, and social practice.",
+    "secondaryImageAlt": "Secondary Skillio interface feature showing customization",
+    "additionalImageAlt": "Additional Skillio interface feature showing synonyms",
+    "features": {
+      "voice": {
+        "title": "Tactile Speech",
+        "description": "Build sentences instantly. Fully offline symbol grids powered by local, private voice synthesis.",
+        "imageAlt": "Skillio AAC Communication Board with customizable grid and symbol support"
+      },
+      "breath": {
+        "title": "Visual Breathing",
+        "description": "Regulate and center. Visual pacing guides ground motor focus when sensory noise overwhelms.",
+        "imageAlt": "Skillio Breathing Control Visual Tool for sensory regulation"
+      },
+      "frame": {
+        "title": "Emotion Cards",
+        "description": "Express the moment. Identify and share feelings safely, building emotional self-awareness.",
+        "imageAlt": "Skillio Emotion Cards Interface showing interactive social practice"
+      },
+      "studio": {
+        "title": "Echo Studio",
+        "description": "Practice sounds privately. Record and analyze target phrases locally with zero cloud sharing.",
+        "imageAlt": "Skillio Echo Studio Recording and Voice Analysis Interface"
+      },
+      "play": {
+        "title": "Social Games",
+        "description": "Build connection. Share pressure-free classroom games designed for natural turn-taking.",
+        "imageAlt": "Tik-Tac-Toe Interactive Game"
+      }
+    }
+  },
+  "CTASection": {
+    "title": "Communicate on your terms.",
+    "description": "Your voice stays with you. No subscriptions. No tracking. Lifetime access for £30.",
+    "cta": {
+      "appStore": "Download on the App Store",
+      "demo": "Schedule a Demo"
+    },
+    "footer": "Available for iOS and iPadOS. Android version coming soon."
+  },
+  "Footer": {
+    "logoAlt": "Skillio Logo",
+    "description": "Empowering individuals through sensory-safe communication tools and meaningful social practice. Join us in building a more inclusive world.",
+    "columns": {
+      "product": "Product",
+      "legal": "Support & Legal"
+    },
+    "links": {
+      "howItWorks": "How it Works",
+      "features": "Key Features",
+      "pricing": "Pricing",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "contact": "Contact Support"
+    },
+    "copyright": "© 2026 Skillio App. All rights reserved."
+  },
+  "ThemeToggle": {
+    "themeToggle": {
+      "light": "Switch to light mode",
+      "dark": "Switch to dark mode"
+    },
+    "loading": "Loading Skillio...",
+    "loadingDocument": "Loading Document..."
+  },
+  "Privacy": {
+    "back": "Back to Home",
+    "title": "Privacy Policy",
+    "subtitle": "Communication is a human right. We protect your data as fiercely as your voice.",
+    "effective": "Effective: March 30, 2026",
+    "sections": {
+      "collection": {
+        "title": "1. Data Ownership",
+        "content": "Skillio runs entirely on-device. We never collect, upload, or share voice recordings or custom student vocabulary grids."
+      },
+      "personal": {
+        "title": "2. Simple Licensing",
+        "content": "We require only an email to activate licenses. We never track, sell, or share student or school identity details."
+      },
+      "usage": {
+        "title": "3. Minimal Analytics",
+        "content": "Anonymized, local crash telemetry helps us maintain tablet performance. No profiles are built, and no ads are served."
+      },
+      "security": {
+        "title": "4. Local Encryption",
+        "content": "Settings and speech files are encrypted on-device. Synchronization tools utilize secure private channels."
+      },
+      "rights": {
+        "title": "5. Instant Deletion",
+        "content": "You own your voice. Export layout templates or erase account configurations instantly in app settings."
+      },
+      "thirdParty": {
+        "title": "6. Caregiver Sync",
+        "content": "Sync capabilities use end-to-end encryption to ensure only authorized caregivers and SLPs can access student boards."
+      },
+      "contact": {
+        "title": "7. Support",
+        "content": "Reach our privacy team directly at privacy@skillio.com for any questions."
+      }
+    }
+  },
+  "Terms": {
+    "back": "Back to Home",
+    "title": "Terms & Conditions",
+    "subtitle": "Simple rules for a community built on respect and accessibility.",
+    "revised": "Last Revised: March 30, 2026",
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptance",
+        "content": "By using Skillio, you agree to these clear terms."
+      },
+      "service": {
+        "title": "2. The Service",
+        "content": "Skillio provides local speech grids, sensory regulation spaces, and educational turn-taking games."
+      },
+      "responsibilities": {
+        "title": "3. Responsibilities",
+        "content": "Keep login details secure. Use the workspace in compliance with standard classroom and school guidelines."
+      },
+      "intellectual": {
+        "title": "4. License",
+        "content": "We license the Skillio application to you for home, clinic, or institutional classroom use."
+      },
+      "liability": {
+        "title": "5. Warranty",
+        "content": "We build Skillio to be fast and stable. The software is provided as-is without liability for hardware faults."
+      },
+      "law": {
+        "title": "6. Governing Law",
+        "content": "These terms follow the laws of the jurisdiction where Skillio is registered."
+      },
+      "contact": {
+        "title": "7. Legal Contact",
+        "content": "Contact support at support@skillio.com with any licensing or legal inquiries."
+      }
+    }
+  },
+  "SubscriptionMatrix": {
+    "heading": "Speech without expiration dates.",
+    "subheading": "Credit card failures or budget shifts shouldn't silence a student. Skillio provides a clinical-grade offline AAC workspace for a simple, single-purchase lifetime license.",
+    "toggle": {
+      "corporate": "App Store Competitors",
+      "alternatives": "Skillio Tiers",
+      "matrix": "School Audit Matrix",
+      "corporateAria": "View App Store Competitors",
+      "alternativesAria": "View Skillio Tiers",
+      "matrixAria": "View School Audit Matrix"
+    },
+    "hero": {
+      "free": {
+        "name": "Free Tier",
+        "price": "£0.00",
+        "period": "forever",
+        "badge": "GET STARTED",
+        "desc": "100% offline, 1 active profile, standard symbols, and basic sensory guides.",
+        "cta": "Start for Free"
+      },
+      "lifetime": {
+        "name": "Lifetime Unlock",
+        "price": "£30.00",
+        "period": "one-time",
+        "badge": "ALL-ACCESS LIFETIME",
+        "desc": "Up to 8 profiles, all games unlocked, clinical regulation, and lifetime upgrades.",
+        "cta": "Unlock Lifetime Voice"
+      }
+    },
+    "headers": {
+      "features": "School Audit",
+      "proloquo": "Proloquo2Go",
+      "tdsnap": "TD Snap®",
+      "touchchat": "TouchChat HD",
+      "free": "Free Tier",
+      "lifetime": "Lifetime Unlock"
+    },
+    "legend": {
+      "title": "Clinical AAC Layout (Fitzgerald Key):",
+      "social": "Social & Pronouns",
+      "verbs": "Verbs & Action States",
+      "descriptors": "Descriptor Components",
+      "nouns": "Noun & Object Parameters"
+    },
+    "competitors": {
+      "verifyLink": "Verify on App Store →",
+      "proloquo": {
+        "name": "Proloquo2Go AAC",
+        "developer": "AssistiveWare",
+        "pricing": "£249.99 upfront",
+        "yearlyPricing": "New app: £89.99/year",
+        "reviews": "12K+ Ratings",
+        "trap": "Locked to one student profile."
+      },
+      "tdsnap": {
+        "name": "TD Snap®",
+        "developer": "Tobii Dynavox LLC",
+        "pricing": "£9.99/month speech",
+        "yearlyPricing": "Total: £119.88/year",
+        "reviews": "700+ Ratings",
+        "trap": "Bricks voice if payments fail."
+      },
+      "touchchat": {
+        "name": "TouchChat HD",
+        "developer": "Prentke Romich Company",
+        "pricing": "£299.99 bundle",
+        "yearlyPricing": "Alternative: £114.99/year",
+        "reviews": "Standard Legacy",
+        "trap": "Heavy tablet boot latency."
+      }
+    },
+    "features": {
+      "offline": "100% Offline Core",
+      "speed": "Boot Time (< 1s)",
+      "profiles": "Independent Profiles",
+      "vocabulary": "Custom Vocabulary",
+      "proloquo": {
+        "offline": "Requires periodic cloud check",
+        "speed": "15s+ cold boot on iPads",
+        "profiles": "Locked to single student profile",
+        "vocabulary": "Locked grids / paid add-ons"
+      },
+      "tdsnap": {
+        "offline": "Fails without active cloud check",
+        "speed": "Cloud check latency at boot",
+        "profiles": "Paywalled profile templates",
+        "vocabulary": "Locked editor / limited symbols"
+      },
+      "touchchat": {
+        "offline": "Requires active device check",
+        "speed": "Severe lag on legacy school tablets",
+        "profiles": "Tied to single hardware device",
+        "vocabulary": "Paid add-ons for custom grids"
+      },
+      "free": {
+        "offline": "100% offline, local synthesis",
+        "speed": "Sub-second instant load",
+        "profiles": "1 active student profile",
+        "vocabulary": "500+ standard symbols"
+      },
+      "lifetime": {
+        "offline": "100% offline, zero latency",
+        "speed": "Instant boot, zero audio delay",
+        "profiles": "Up to 8 active profiles",
+        "vocabulary": "Unlimited symbols & recording"
+      }
+    }
+  }
+}

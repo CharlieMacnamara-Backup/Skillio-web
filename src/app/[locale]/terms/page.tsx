@@ -1,7 +1,10 @@
 import Link from "next/link";
 import { Container } from "@/components/Container";
+import { useTranslations } from "next-intl";
 
 export default function TermsPage() {
+  const t = useTranslations("Terms");
+
   return (
     <div className="relative isolate min-h-full">
       {/* Background decoration */}
@@ -17,55 +20,55 @@ export default function TermsPage() {
             className="group mb-12 inline-flex items-center gap-2 text-sm font-semibold text-zinc-500 hover:text-indigo-600 transition-colors"
           >
             <span className="group-hover:-translate-x-1 transition-transform">←</span>
-            Back to Home
+            {t("back")}
           </Link>
 
           <header className="mb-16">
             <h1 className="text-4xl font-bold font-display tracking-tight text-zinc-900 dark:text-zinc-100 sm:text-5xl lg:text-6xl mb-6">
-              Terms & Conditions
+              {t("title")}
             </h1>
             <p className="text-xl text-zinc-500 dark:text-zinc-400 font-medium max-w-2xl">
-              By using Skillio, you join a community built on respect, inclusion, and the empowerment of every voice.
+              {t("subtitle")}
             </p>
             <div className="mt-8 flex items-center gap-2 text-sm text-zinc-400 dark:text-zinc-500 bg-white/50 dark:bg-zinc-900/50 w-fit px-4 py-2 rounded-full border border-zinc-100 dark:border-zinc-800 backdrop-blur-sm">
-               <span>Last Revised: March 30, 2026</span>
+               <span>{t("revised")}</span>
             </div>
           </header>
 
           <div className="prose prose-zinc dark:prose-invert max-w-none prose-headings:font-display prose-headings:font-bold prose-h2:text-indigo-600 dark:prose-h2:text-indigo-500 prose-h2:mt-12 prose-h2:mb-6 prose-p:leading-relaxed prose-p:text-zinc-600 dark:prose-p:text-zinc-400">
-            <h2>1. Acceptance of Terms</h2>
+            <h2>{t("sections.acceptance.title")}</h2>
             <p>
-              By accessing or using Skillio, you agree to be bound by these Terms. If you do not agree to all the terms and conditions, you may not use the application.
+              {t("sections.acceptance.content")}
             </p>
             
-            <h2>2. Description of Service</h2>
+            <h2>{t("sections.service.title")}</h2>
             <p>
-              Skillio provides tools for Augmentative and Alternative Communication (AAC), social skills training, and emotional regulation. We reserve the right to modify or discontinue features at our discretion to better serve the community.
+              {t("sections.service.content")}
             </p>
 
-            <h2>3. User Responsibilities</h2>
+            <h2>{t("sections.responsibilities.title")}</h2>
             <p>
-              You are responsible for maintaining the confidentiality of your account credentials. You agree to use the app in a way that respects the rights of others and complies with all applicable local and international laws.
+              {t("sections.responsibilities.content")}
             </p>
 
-            <h2>4. Intellectual Property</h2>
+            <h2>{t("sections.intellectual.title")}</h2>
             <p>
-              The Skillio name, logo, and all original content are the exclusive property of Skillio App. You are granted a limited, non-exclusive license to use the app for personal, non-commercial purposes.
+              {t("sections.intellectual.content")}
             </p>
 
-            <h2>5. Limitation of Liability</h2>
+            <h2>{t("sections.liability.title")}</h2>
             <p>
-              Skillio is provided on an &quot;as is&quot; and &quot;as available&quot; basis. While we strive for 100% uptime and accuracy, we cannot guarantee the service will be error-free or uninterrupted.
+              {t("sections.liability.content")}
             </p>
 
-            <h2>6. Governing Law</h2>
+            <h2>{t("sections.law.title")}</h2>
             <p>
-              These terms are governed by the laws of the jurisdiction in which the company is registered, without regard to its conflict of law provisions.
+              {t("sections.law.content")}
             </p>
 
-            <h2>7. Contact Information</h2>
+            <h2>{t("sections.contact.title")}</h2>
             <p>
-              For support or legal inquiries, please contact us at <span className="text-indigo-600 dark:text-indigo-500 font-medium underline decoration-indigo-500/20 underline-offset-4">support@skillio.com</span>.
+              {t("sections.contact.content")}
             </p>
           </div>
         </div>

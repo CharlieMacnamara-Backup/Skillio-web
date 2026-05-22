@@ -1,38 +1,14 @@
-import { NextResponse } from 'next/server';
-import type { NextRequest } from 'next/server';
+import createMiddleware from 'next-intl/middleware';
+import { routing } from './i18n/routing';
 
 /**
- * Skillio Proxy - Declarative Routing & Redirects (Replaces Middleware)
+ * Skillio Proxy - Canonical next-intl middleware for Next.js 16
  */
-export function proxy(request: NextRequest) {
-  const { pathname } = request.nextUrl;
+export const proxy = createMiddleware(routing);
 
-  // 1. Catch /undefined redirects early (common mobile link bug)
-  if (pathname.includes('/undefined')) {
-    const cleanUrl = request.nextUrl.clone();
-    cleanUrl.pathname = '/';
-    return NextResponse.redirect(cleanUrl);
-  }
-
-  // 2. Add custom log tracing for navigations (Server-side)
-  // [EVENT] NAVIGATION to pathname
-  
-  return NextResponse.next();
-}
-
-/**
- * Configure matching paths for middleware
- */
 export const config = {
-  matcher: [
-    /*
-     * Match all request paths except for the ones starting with:
-     * - api (API routes)
-     * - _next/static (static files)
-     * - _next/image (image optimization files)
-     * - favicon.ico (favicon file)
-     * - public (assets)
-     */
-    '/((?!api|_next/static|_next/image|favicon.ico|assets|public).*)',
-  ],
+  // Match all pathnames except for:
+  // - API routes, tRPC, _next, _vercel
+  // - Files containing a dot (e.g., favicon.ico, images)
+  matcher: ['/((?!api|trpc|_next|_vercel|.*\\..*).*)']
 };
