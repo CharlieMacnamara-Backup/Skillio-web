@@ -251,9 +251,9 @@
     },
     "headers": {
       "features": "School Audit",
-      "proloquo": "Proloquo2Go",
-      "tdsnap": "TD Snap®",
-      "touchchat": "TouchChat HD",
+      "proloquo": "Competitor A",
+      "tdsnap": "Competitor B",
+      "touchchat": "Competitor C",
       "free": "Free Tier",
       "lifetime": "Lifetime Unlock"
     },
@@ -267,26 +267,26 @@
     "competitors": {
       "verifyLink": "Verify on App Store →",
       "proloquo": {
-        "name": "Proloquo2Go AAC",
-        "developer": "AssistiveWare",
-        "pricing": "£249.99 upfront",
-        "yearlyPricing": "New app: £89.99/year",
-        "reviews": "12K+ Ratings",
+        "name": "Competitor A",
+        "developer": "Developer A",
+        "pricing": "£XXX.XX upfront",
+        "yearlyPricing": "Alternative: £XX.XX/year",
+        "reviews": "XK+ Ratings",
         "trap": "Locked to one student profile."
       },
       "tdsnap": {
-        "name": "TD Snap®",
-        "developer": "Tobii Dynavox LLC",
-        "pricing": "£9.99/month speech",
-        "yearlyPricing": "Total: £119.88/year",
-        "reviews": "700+ Ratings",
+        "name": "Competitor B",
+        "developer": "Developer B",
+        "pricing": "£X.XX/month speech",
+        "yearlyPricing": "Total: £XXX.XX/year",
+        "reviews": "XXX+ Ratings",
         "trap": "Bricks voice if payments fail."
       },
       "touchchat": {
-        "name": "TouchChat HD",
-        "developer": "Prentke Romich Company",
-        "pricing": "£299.99 bundle",
-        "yearlyPricing": "Alternative: £114.99/year",
+        "name": "Competitor C",
+        "developer": "Developer C",
+        "pricing": "£XXX.XX bundle",
+        "yearlyPricing": "Alternative: £XX.XX/year",
         "reviews": "Standard Legacy",
         "trap": "Heavy tablet boot latency."
       }
