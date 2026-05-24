@@ -37,7 +37,7 @@ export function Hero() {
               return (
                 <div
                   key={card.key}
-                  className={`card-soft p-8 bg-white dark:bg-zinc-900 flex flex-col justify-between relative overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-[1.01] ${card.borderClass}`}
+                  className={`card-soft p-6 sm:p-8 bg-white dark:bg-zinc-900 flex flex-col justify-between relative overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-[1.01] ${card.borderClass}`}
                 >
                   {isFeatured && card.badgeKey && (
                     <div className="absolute top-4 right-4 bg-[#14b8a6] text-white text-[10px] font-black tracking-widest px-3 py-1.5 rounded-full shadow-xs animate-pulse">

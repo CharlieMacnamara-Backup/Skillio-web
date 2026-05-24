@@ -71,7 +71,7 @@ export function AACDemo() {
       <Container>
         {/* Header Layout */}
         <div className="max-w-3xl mx-auto text-center mb-10 md:mb-16 lg:mb-20">
-          <h2 className="text-3xl font-extrabold text-zinc-900 tracking-tight sm:text-4xl font-display dark:text-zinc-100 mb-4">
+          <h2 className="text-3xl font-extrabold text-zinc-900 tracking-tight sm:text-4xl font-display dark:text-zinc-100 mb-3 sm:mb-4">
             {t("title")}
           </h2>
           <p className="text-lg text-zinc-600 dark:text-zinc-400 font-sans leading-relaxed">
@@ -149,16 +149,16 @@ export function AACDemo() {
           </div>
 
           {/* Right / Bottom Side: Interactive Selector & Detailed Features Card */}
-          <div className="lg:col-span-5 flex flex-col gap-6 w-full">
+          <div className="lg:col-span-5 flex flex-col gap-4 sm:gap-6 w-full">
             {/* Horizontal / Scrollable Segmented Tab Switcher */}
-            <div className="flex gap-2 overflow-x-auto pb-2 border-b border-zinc-200/50 dark:border-zinc-800/50 scrollbar-none select-none">
+            <div className="flex gap-2 sm:gap-3 overflow-x-auto pb-2 sm:pb-3 border-b border-zinc-200/50 dark:border-zinc-800/50 scrollbar-none select-none">
               {tabConfigs.map((tab) => {
                 const isActive = tab.key === activeTab;
                 return (
                   <button
                     key={tab.key}
                     onClick={(e) => handleTabChange(tab.key, e)}
-                    className={`px-4 py-2.5 text-xs sm:text-sm font-extrabold rounded-full transition-all duration-300 cursor-pointer flex-shrink-0 border uppercase tracking-wider select-none ${
+                    className={`px-3 sm:px-4 py-2 sm:py-2.5 text-xs sm:text-sm font-extrabold rounded-full transition-all duration-300 cursor-pointer flex-shrink-0 border uppercase tracking-wider select-none ${
                       isActive
                         ? `${tab.activePillBg} ${tab.activeBorderColor} shadow-xs font-black`
                         : "bg-zinc-100/80 dark:bg-zinc-800/40 border-transparent text-zinc-500 hover:text-zinc-800 dark:hover:text-zinc-200 hover:bg-zinc-200/50 dark:hover:bg-zinc-800/80"
@@ -171,10 +171,10 @@ export function AACDemo() {
             </div>
 
             {/* Feature Description Card */}
-            <div className="card-soft p-6 sm:p-8 bg-white dark:bg-zinc-900 border border-zinc-200/50 dark:border-zinc-800/80 shadow-md transition-all duration-500 flex flex-col gap-5 min-h-[340px]">
+            <div className="card-soft p-6 sm:p-8 bg-white dark:bg-zinc-900 border border-zinc-200/50 dark:border-zinc-800/80 shadow-md transition-all duration-500 flex flex-col gap-4 sm:gap-5 min-h-[340px]">
               {/* Badge & Title */}
               <div>
-                <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold border uppercase tracking-wide mb-3 ${currentTabConfig.badgeColor}`}>
+                <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold border uppercase tracking-wide mb-2 sm:mb-3 ${currentTabConfig.badgeColor}`}>
                   {t(`features.${activeTab}.badge`)}
                 </span>
                 <h3 className="text-2xl font-bold font-display text-zinc-900 dark:text-white leading-tight">
@@ -188,9 +188,9 @@ export function AACDemo() {
               </p>
 
               {/* Glowing Bullet Features */}
-              <ul className="flex flex-col gap-3.5 mt-2">
+              <ul className="flex flex-col gap-3 sm:gap-3.5 mt-2">
                 {(["bullet1", "bullet2", "bullet3"] as const).map((bulletKey) => (
-                  <li key={bulletKey} className="flex items-start gap-3">
+                  <li key={bulletKey} className="flex items-start gap-2 sm:gap-3">
                     <span className={`w-2.5 h-2.5 rounded-full mt-1.5 flex-shrink-0 shadow-md transition-colors duration-500 ${currentTabConfig.bulletColor}`} />
                     <span className="text-sm font-medium text-zinc-700 dark:text-zinc-300 font-sans leading-snug">
                       {t(`features.${activeTab}.${bulletKey}`)}

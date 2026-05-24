@@ -17,20 +17,20 @@ export default function TermsPage() {
         <div className="max-w-3xl">
           <Link 
             href="/" 
-            className="group mb-12 inline-flex items-center gap-2 text-sm font-semibold text-zinc-500 hover:text-indigo-600 transition-colors"
+            className="group mb-8 sm:mb-12 inline-flex items-center gap-2 sm:gap-3 text-sm font-semibold text-zinc-500 hover:text-indigo-600 transition-colors"
           >
             <span className="group-hover:-translate-x-1 transition-transform">←</span>
             {t("back")}
           </Link>
 
-          <header className="mb-16">
-            <h1 className="text-4xl font-bold font-display tracking-tight text-zinc-900 dark:text-zinc-100 sm:text-5xl lg:text-6xl mb-6">
+          <header className="mb-12 sm:mb-16">
+            <h1 className="text-4xl font-bold font-display tracking-tight text-zinc-900 dark:text-zinc-100 sm:text-5xl lg:text-6xl mb-4 sm:mb-6">
               {t("title")}
             </h1>
             <p className="text-xl text-zinc-500 dark:text-zinc-400 font-medium max-w-2xl">
               {t("subtitle")}
             </p>
-            <div className="mt-8 flex items-center gap-2 text-sm text-zinc-400 dark:text-zinc-500 bg-white/50 dark:bg-zinc-900/50 w-fit px-4 py-2 rounded-full border border-zinc-100 dark:border-zinc-800 backdrop-blur-sm">
+            <div className="mt-6 sm:mt-8 flex items-center gap-2 sm:gap-3 text-sm text-zinc-400 dark:text-zinc-500 bg-white/50 dark:bg-zinc-900/50 w-fit px-4 py-2 rounded-full border border-zinc-100 dark:border-zinc-800 backdrop-blur-sm">
                <span>{t("revised")}</span>
             </div>
           </header>

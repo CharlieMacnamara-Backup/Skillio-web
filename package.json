@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "cf-build": "opennextjs-cloudflare",
+    "cf-build": "opennextjs-cloudflare build",
     "verify": "node scripts/verify.mjs",
     "prepare": "husky"
   },
