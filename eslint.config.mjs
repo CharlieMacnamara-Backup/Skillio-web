@@ -45,6 +45,7 @@ const eslintConfig = [
     ignores: [
       ".next/**",
       ".vercel/**",
+      ".open-next/**",
       "node_modules/**",
       "out/**",
       "public/**",
