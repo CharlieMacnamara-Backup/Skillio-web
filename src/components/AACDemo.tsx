@@ -2,8 +2,8 @@
 
 import React, { useState } from "react";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
 import { Container } from "./Container";
+import { DeviceScreenshot } from "./DeviceScreenshot";
 
 type TabKey = "grid" | "studio" | "sensory" | "accessibility";
 
@@ -84,68 +84,29 @@ export function AACDemo() {
           
           {/* Left / Top Side: Tablet Showcase Device Mockup */}
           <div className="lg:col-span-7 flex flex-col items-center">
-            {/* iPad Device Frame */}
-            <div className="w-full relative bg-zinc-950 p-3 sm:p-4 rounded-[2rem] sm:rounded-[2.5rem] shadow-2xl border-4 border-zinc-800 dark:border-zinc-900 transition-all duration-500 hover:scale-[1.01] group">
-              {/* Premium reflection shine */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-white/0 via-white/5 to-white/10 pointer-events-none rounded-[2rem] sm:rounded-[2.5rem] z-20" />
-              {/* Inner ambient glow background */}
-              <div className="absolute inset-0 bg-gradient-to-br from-teal-500/5 via-transparent to-purple-500/5 pointer-events-none rounded-[2rem] sm:rounded-[2.5rem]" />
-              
-              {/* iPad Screen Area */}
-              <div className="relative bg-zinc-900 dark:bg-black rounded-[1.4rem] sm:rounded-[1.8rem] overflow-hidden border border-zinc-800 flex items-center justify-center aspect-[16/10] sm:aspect-[16/11]">
-                {/* Images Layer Matrix with crossfades */}
-                {tabConfigs.map((tab) => {
-                  const isActive = tab.key === activeTab;
-                  return (
-                    <div
-                      key={tab.key}
-                      className={`absolute inset-0 transition-all duration-700 ease-in-out ${
-                        isActive 
-                          ? "opacity-100 scale-100 z-10 pointer-events-auto" 
-                          : "opacity-0 scale-95 z-0 pointer-events-none"
-                      }`}
-                    >
-                      <Image
-                        src={tab.imageSrc}
-                        alt={t(`features.${tab.key}.title`)}
-                        fill
-                        quality={95}
-                        priority={tab.key === "grid"}
-                        className="object-cover select-none bg-zinc-100 dark:bg-zinc-900"
-                        sizes="(max-width: 768px) 90vw, (max-width: 1024px) 70vw, 45vw"
-                      />
-                    </div>
-                  );
-                })}
-
-                {/* Secondary Floating Image overlay (if configured and desktop size) */}
-                {tabConfigs.map((tab) => {
-                  const isActive = tab.key === activeTab;
-                  if (!tab.secondaryImageSrc) return null;
-                  return (
-                    <div
-                      key={`sec-${tab.key}`}
-                      className={`absolute bottom-4 right-4 w-[35%] xl:w-[30%] card-soft overflow-hidden p-1 bg-white/95 dark:bg-zinc-900/95 border border-zinc-200/50 dark:border-zinc-800 shadow-xl hidden md:block transition-all duration-700 delay-100 ${
-                        isActive 
-                          ? "opacity-100 translate-y-0 scale-100 z-20 pointer-events-auto" 
-                          : "opacity-0 translate-y-4 scale-90 z-0 pointer-events-none"
-                      }`}
-                    >
-                      <div className="rounded-xl overflow-hidden border border-zinc-100 dark:border-zinc-800/50 relative aspect-[16/11]">
-                        <Image
-                          src={tab.secondaryImageSrc}
-                          alt="Detail view of custom parameters"
-                          fill
-                          quality={90}
-                          className="object-cover select-none"
-                          sizes="15vw"
-                        />
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
+            {/* Images Layer Matrix with crossfades */}
+            {tabConfigs.map((tab) => {
+              const isActive = tab.key === activeTab;
+              return (
+                <div
+                  key={tab.key}
+                  className={`w-full transition-all duration-700 ease-in-out ${
+                    isActive 
+                      ? "opacity-100 scale-100 z-10 pointer-events-auto" 
+                      : "opacity-0 scale-95 z-0 pointer-events-none absolute inset-0"
+                  }`}
+                >
+                  <DeviceScreenshot
+                    src={tab.imageSrc}
+                    alt={t(`features.${tab.key}.title`)}
+                    device="ipad"
+                    overlaySrc={tab.secondaryImageSrc}
+                    overlayAlt="Detail view of custom parameters"
+                    priority={tab.key === "grid"}
+                  />
+                </div>
+              );
+            })}
           </div>
 
           {/* Right / Bottom Side: Interactive Selector & Detailed Features Card */}
