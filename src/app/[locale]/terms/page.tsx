@@ -30,7 +30,7 @@ export default function TermsPage() {
             <p className="text-xl text-zinc-500 dark:text-zinc-400 font-medium max-w-2xl">
               {t("subtitle")}
             </p>
-            <div className="mt-6 sm:mt-8 flex items-center gap-2 sm:gap-3 text-sm text-zinc-400 dark:text-zinc-500 bg-white/50 dark:bg-zinc-900/50 w-fit px-4 py-2 rounded-full border border-zinc-100 dark:border-zinc-800 backdrop-blur-sm">
+            <div className="mt-6 sm:mt-8 flex items-center gap-2 sm:gap-3 text-sm text-zinc-400 dark:text-zinc-500 bg-white/50 dark:bg-zinc-900/50 w-fit px-3 sm:px-4 py-1.5 sm:py-2 rounded-full border border-zinc-100 dark:border-zinc-800 backdrop-blur-sm">
                <span>{t("revised")}</span>
             </div>
           </header>

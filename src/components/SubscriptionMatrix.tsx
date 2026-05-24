@@ -179,7 +179,7 @@ export function SubscriptionMatrix() {
 
           {/* Skillio Lifetime Unlock Card */}
           <div className="relative p-6 sm:p-8 rounded-3xl border-4 border-[#14b8a6] bg-teal-500/5 dark:bg-teal-500/[0.03] shadow-lg shadow-teal-500/5 transition-all duration-300">
-            <div className="absolute -top-3 right-4 bg-[#14b8a6] text-white text-[10px] font-bold tracking-widest px-3 py-1 rounded-full shadow-xs">
+            <div className="absolute -top-3 right-4 bg-[#14b8a6] text-white text-[10px] font-bold tracking-widest px-2.5 sm:px-3 py-0.5 sm:py-1 rounded-full shadow-xs">
               {t("hero.lifetime.badge")}
             </div>
             <div className="mb-4">
@@ -215,7 +215,7 @@ export function SubscriptionMatrix() {
                 e.preventDefault();
                 window.location.hash = "#features";
               }}
-              className="w-full py-3.5 px-6 font-display font-bold text-center rounded-2xl text-white bg-[#14b8a6] hover:bg-[#0d9488] hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 shadow-md shadow-teal-500/20 hover:shadow-lg hover:shadow-teal-500/30 cursor-pointer block text-sm tracking-wider uppercase"
+              className="w-full py-3 sm:py-3.5 px-4 sm:px-6 font-display font-bold text-center rounded-2xl text-white bg-[#14b8a6] hover:bg-[#0d9488] hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 shadow-md shadow-teal-500/20 hover:shadow-lg hover:shadow-teal-500/30 cursor-pointer block text-sm tracking-wider uppercase"
             >
               {t("hero.lifetime.cta")}
             </button>

@@ -40,7 +40,7 @@ export function Hero() {
                   className={`card-soft p-6 sm:p-8 bg-white dark:bg-zinc-900 flex flex-col justify-between relative overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-[1.01] ${card.borderClass}`}
                 >
                   {isFeatured && card.badgeKey && (
-                    <div className="absolute top-4 right-4 bg-[#14b8a6] text-white text-[10px] font-black tracking-widest px-3 py-1.5 rounded-full shadow-xs animate-pulse">
+                    <div className="absolute top-3 sm:top-4 right-3 sm:right-4 bg-[#14b8a6] text-white text-[10px] font-black tracking-widest px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full shadow-xs animate-pulse">
                       {tMatrix(card.badgeKey)}
                     </div>
                   )}
@@ -87,7 +87,7 @@ export function Hero() {
                       e.preventDefault();
                       window.location.hash = card.ctaActionHash;
                     }}
-                    className={`w-full py-3 px-6 text-center font-display font-bold text-xs uppercase tracking-wider rounded-2xl cursor-pointer ${card.ctaClass}`}
+                    className={`w-full py-2.5 sm:py-3 px-4 sm:px-6 text-center font-display font-bold text-xs uppercase tracking-wider rounded-2xl cursor-pointer ${card.ctaClass}`}
                   >
                     {tMatrix(`hero.${card.key}.cta`)}
                   </button>
