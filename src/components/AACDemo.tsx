@@ -119,7 +119,7 @@ export function AACDemo() {
                   <button
                     key={tab.key}
                     onClick={(e) => handleTabChange(tab.key, e)}
-                    className={`px-3 sm:px-4 py-2 sm:py-2.5 text-xs sm:text-sm font-extrabold rounded-full transition-all duration-300 cursor-pointer flex-shrink-0 border uppercase tracking-wider select-none ${
+                    className={`px-3 sm:px-4 py-2 sm:py-2.5 min-h-[44px] min-w-[44px] text-xs sm:text-sm font-extrabold rounded-full transition-all duration-300 cursor-pointer flex-shrink-0 border uppercase tracking-wider select-none flex items-center justify-center ${
                       isActive
                         ? `${tab.activePillBg} ${tab.activeBorderColor} shadow-xs font-black`
                         : "bg-zinc-100/80 dark:bg-zinc-800/40 border-transparent text-zinc-500 hover:text-zinc-800 dark:hover:text-zinc-200 hover:bg-zinc-200/50 dark:hover:bg-zinc-800/80"

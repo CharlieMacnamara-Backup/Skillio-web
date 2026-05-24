@@ -65,7 +65,7 @@ function NavItem({ href, children }: { href: string; children: React.ReactNode }
     <li>
       <Link
         href={href}
-        className="relative block px-2.5 py-1.5 md:px-3 md:py-2 transition hover:text-teal-600 dark:hover:text-teal-400"
+        className="relative block px-4 py-3 min-h-[44px] min-w-[44px] flex items-center transition hover:text-teal-600 dark:hover:text-teal-400"
       >
         {children}
       </Link>

@@ -6,15 +6,20 @@ import { getMessages } from "next-intl/server";
 import { ThemeProvider } from "next-themes";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { SkipToMain } from "@/components/SkipToMain";
+import { Analytics } from "@/components/Analytics";
+import { softwareApplicationSchema, organizationSchema, faqPageSchema } from "@/lib/schema";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const locales = ["en"];
@@ -26,6 +31,7 @@ export function generateStaticParams() {
 const outfit = Outfit({
   variable: "--font-outfit",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -39,6 +45,16 @@ export const metadata: Metadata = {
   authors: [{ name: "Skillio Team" }],
   creator: "Skillio",
   publisher: "Skillio",
+  verification: {
+    google: process.env.GOOGLE_SITE_VERIFICATION || "",
+  },
+  alternates: {
+    canonical: "https://skillio-app.uk",
+    languages: {
+      "en-GB": "https://skillio-app.uk",
+      "en-US": "https://skillio-app.uk",
+    },
+  },
   formatDetection: {
     email: false,
     address: false,
@@ -100,64 +116,25 @@ export default async function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "SoftwareApplication",
-              "name": "Skillio",
-              "applicationCategory": "HealthApplication",
-              "operatingSystem": "iOS, iPadOS",
-              "description": "Skillio is a sensory-safe, offline AAC app for autistic children and non-verbal communication. Trusted by parents, SLPs, and schools.",
-              "offers": {
-                "@type": "Offer",
-                "price": "30.00",
-                "priceCurrency": "GBP",
-                "availability": "https://schema.org/InStock"
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.8",
-                "ratingCount": "150"
-              },
-              "featureList": [
-                "100% offline AAC communication",
-                "Sensory-safe design for autism",
-                "Customizable vocabulary grids",
-                "Emotional regulation tools",
-                "Social practice games",
-                "Up to 8 student profiles"
-              ],
-              "audience": {
-                "@type": "Audience",
-                "audienceType": ["Parents", "Speech-Language Pathologists", "Schools", "Special Education Teachers"]
-              },
-              "keywords": "AAC app for autism, non-verbal communication app, speech therapy app for autistic children, sensory-safe communication tool, offline AAC app"
-            })
+            __html: JSON.stringify(softwareApplicationSchema)
           }}
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "name": "Skillio",
-              "url": "https://skillio-app.uk",
-              "logo": "https://skillio-app.uk/logo.png",
-              "description": "Skillio develops sensory-safe AAC communication tools for autistic children and non-verbal individuals.",
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "contactType": "customer support",
-                "email": "support@skillio.com"
-              },
-              "sameAs": [
-                "https://twitter.com/skillioapp",
-                "https://linkedin.com/company/skillioapp"
-              ]
-            })
+            __html: JSON.stringify(organizationSchema)
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(faqPageSchema)
           }}
         />
       </head>
       <body className="flex min-h-screen flex-col bg-zinc-50 transition-colors duration-300 dark:bg-black">
+        <SkipToMain />
+        <Analytics />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -172,7 +149,7 @@ export default async function RootLayout({
           <NextIntlClientProvider messages={messages}>
             <Header />
             <div className="relative flex flex-col flex-1">
-               <main className="flex-auto">{children}</main>
+               <main id="main-content" className="flex-auto">{children}</main>
                <Footer />
             </div>
           </NextIntlClientProvider>

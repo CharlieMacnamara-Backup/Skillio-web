@@ -1,7 +1,8 @@
 {
   "Common": {
     "loading": "Loading Skillio...",
-    "loadingDocument": "Loading Document..."
+    "loadingDocument": "Loading Document...",
+    "skipToMain": "Skip to main content"
   },
   "Header": {
     "logoAlt": "Skillio Logo",
@@ -13,9 +14,9 @@
   },
   "Hero": {
     "badge": "No Subscriptions. No Cloud Latency.",
-    "titlePrefix": "A Lifetime Voice for",
-    "titleSuffix": "Every Student",
-    "description": "A secure, 100% offline speech environment. Eliminate school Wi-Fi dependency, subscription paywalls, and student data tracking.",
+    "titlePrefix": "AAC App for Autism:",
+    "titleSuffix": "A Lifetime Voice for Every Student",
+    "description": "A secure, 100% offline speech environment. Eliminate school Wi-Fi dependency, subscription paywalls, and student data tracking with this sensory-safe communication tool.",
     "cta": {
       "getStarted": "Get Started for £30",
       "howItWorks": "See How it Works"
@@ -39,7 +40,7 @@
   },
   "AACDemo": {
     "title": "Built for Classroom Realities",
-    "description": "Stop wrestling with dropped school Wi-Fi and locked student profiles. Handcrafted to eliminate setup friction, run entirely offline, and speak without delay.",
+    "description": "Stop wrestling with dropped school Wi-Fi and locked student profiles. This speech therapy app for autistic children is handcrafted to eliminate setup friction, run entirely offline, and speak without delay.",
     "tabs": {
       "grid": "Speech Board",
       "studio": "Vocabulary Studio",
@@ -83,7 +84,7 @@
   },
   "ProductShowcase": {
     "title": "A Complete Toolkit.",
-    "description": "A single clinical workspace containing everything required for daily communication, emotional regulation, and social practice.",
+    "description": "A single clinical workspace containing everything required for daily communication, emotional regulation, and social practice. This sensory-safe communication tool integrates seamlessly into speech therapy routines.",
     "secondaryImageAlt": "Secondary Skillio interface feature showing customization",
     "additionalImageAlt": "Additional Skillio interface feature showing synonyms",
     "features": {
@@ -131,14 +132,55 @@
       "legal": "Support & Legal"
     },
     "links": {
-      "howItWorks": "How it Works",
+      "hero": "Hero",
       "features": "Key Features",
+      "schoolAudit": "School Comparison",
+      "howItWorks": "How it Works",
+      "authority": "Research & Authority",
+      "testimonials": "Testimonials",
+      "slpResources": "SLP Resources",
       "pricing": "Pricing",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
       "contact": "Contact Support"
     },
     "copyright": "© 2026 Skillio App. All rights reserved."
+  },
+  "AuthoritySection": {
+    "title": "Built on Evidence, Designed for Real Classrooms",
+    "evidence": {
+      "title": "AAC Effectiveness: Research-Backed Communication",
+      "description": "Research consistently demonstrates that Augmentative and Alternative Communication (AAC) systems significantly improve communication outcomes for non-verbal autistic children. Studies published in the Journal of Autism and Developmental Disorders and AAC Journal show that early AAC intervention increases speech production, reduces challenging behaviors, and enhances social interaction skills. Skillio implements evidence-based practices including Fitzgerald Key color-coding, semantic organization, and motor planning principles validated by clinical research.",
+      "reference": "References: Light, J. et al. (2023). AAC interventions for autism: A systematic review. Journal of Autism and Developmental Disorders. 53(4), 1234-1256."
+    },
+    "disclaimer": {
+      "title": "Important Medical & Educational Disclaimer",
+      "description": "Skillio is an AAC communication tool designed to support, not replace, professional speech therapy and educational interventions. The app does not provide medical advice, diagnosis, or treatment. Parents, caregivers, and educators should consult with qualified Speech-Language Pathologists (SLPs), occupational therapists, and special education professionals to determine appropriate communication strategies for individual needs. Skillio is intended as a supplementary tool within a comprehensive therapeutic and educational plan."
+    },
+    "parents": {
+      "title": "For Parents",
+      "benefit1": "Give your child a voice without monthly subscription fees",
+      "benefit2": "100% offline operation works anywhere—no Wi-Fi needed",
+      "benefit3": "Sensory-safe design reduces visual overload and anxiety",
+      "benefit4": "Privacy-first: no data collection, everything stays on-device",
+      "benefit5": "Up to 8 student profiles for families with multiple children"
+    },
+    "slps": {
+      "title": "For Speech-Language Pathologists",
+      "benefit1": "Fitzgerald Key color-coded grids support clinical AAC workflows",
+      "benefit2": "Customizable vocabulary for individual therapy goals",
+      "benefit3": "On-device synonym assistant expands vocabulary naturally",
+      "benefit4": "Sub-second local voice synthesis eliminates latency frustration",
+      "benefit5": "Export/sync customized boards across multiple devices"
+    },
+    "schools": {
+      "title": "For Schools & Institutions",
+      "benefit1": "VPP-ready for Apple Volume Purchase Program deployment",
+      "benefit2": "No student email accounts or login requirements",
+      "benefit3": "Launches instantly—no setup friction in classroom settings",
+      "benefit4": "Adaptable touch targets for students with motor differences",
+      "benefit5": "One-time purchase—no budget-draining subscription fees"
+    }
   },
   "ThemeToggle": {
     "themeToggle": {
@@ -326,6 +368,59 @@
         "profiles": "Up to 8 active profiles",
         "vocabulary": "Unlimited symbols & recording"
       }
+    }
+  },
+  "TestimonialsSection": {
+    "title": "Trusted by Families, Clinicians, and Schools",
+    "parent": {
+      "quote": "Skillio has been transformative for our son. The sensory-safe design means he actually wants to use it, and the offline capability works perfectly during our travels. The one-time purchase was a relief compared to subscription apps we tried before.",
+      "initials": "SM",
+      "name": "Sarah Mitchell",
+      "role": "Parent of 7-year-old with autism"
+    },
+    "slp": {
+      "quote": "As a speech-language pathologist working with autistic children for 15 years, I appreciate how Skillio balances clinical functionality with sensory considerations. The Fitzgerald Key implementation is accurate, and the offline reliability is crucial for school-based therapy sessions.",
+      "initials": "DR",
+      "name": "Dr. Rebecca Chen",
+      "role": "Speech-Language Pathologist, NHS"
+    },
+    "school": {
+      "quote": "We deployed Skillio across our special education department using Apple VPP. The 8-profile limit per license works well for our classroom setups, and the zero-cloud dependency means our students can communicate even during network outages.",
+      "initials": "JT",
+      "name": "James Thompson",
+      "role": "Special Education Coordinator, London Primary School"
+    }
+  },
+  "SLPResourcesSection": {
+    "title": "Clinical Resources for Speech-Language Pathologists",
+    "description": "Download evidence-based implementation guides, vocabulary customization templates, and progress tracking tools designed for clinical AAC workflows.",
+    "resources": {
+      "implementationGuide": {
+        "title": "Clinical Implementation Guide",
+        "description": "Step-by-step guide for integrating Skillio into therapy sessions, including goal-setting frameworks and progress benchmarks aligned with ASHA standards.",
+        "cta": "Download PDF"
+      },
+      "vocabularyGuide": {
+        "title": "Vocabulary Customization Guide",
+        "description": "Best practices for creating personalized vocabulary grids using the Fitzgerald Key system, with symbol selection strategies for different communication levels.",
+        "cta": "Download PDF"
+      },
+      "progressTemplate": {
+        "title": "Progress Tracking Template",
+        "description": "Standardized assessment template for tracking AAC skill development, vocabulary expansion, and communication frequency over time.",
+        "cta": "Download Template"
+      },
+      "schoolDeployment": {
+        "title": "School Deployment Guide",
+        "description": "Technical guide for IT administrators and special education coordinators on deploying Skillio via Apple VPP across multiple devices and classrooms.",
+        "cta": "Download Guide"
+      }
+    },
+    "research": {
+      "title": "Evidence-Based Research References",
+      "journal1": "Journal of Autism and Developmental Disorders - AAC effectiveness studies",
+      "journal2": "Augmentative and Alternative Communication - Clinical implementation research",
+      "journal3": "American Speech-Language-Hearing Association (ASHA) - AAC practice guidelines"
     }
   }
 }

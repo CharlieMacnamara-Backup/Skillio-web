@@ -37,9 +37,14 @@ export function Footer() {
             <div className="md:col-span-3 lg:col-span-4">
                <h4 className="font-display font-bold text-zinc-900 dark:text-white mb-4 md:mb-6">{t("columns.product")}</h4>
                <ul className="space-y-4 text-sm font-medium text-zinc-600 dark:text-zinc-400">
-                 <li><Link href="/#how-it-works" className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.howItWorks")}</Link></li>
-                 <li><Link href="/#features" className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.features")}</Link></li>
-                 <li><Link href="/#get-started" className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.pricing")}</Link></li>
+                 <li><Link href="/#hero" className="block min-h-[44px] min-w-[44px] py-2 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.hero")}</Link></li>
+                 <li><Link href="/#features" className="block min-h-[44px] min-w-[44px] py-2 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.features")}</Link></li>
+                 <li><Link href="/#school-audit" className="block min-h-[44px] min-w-[44px] py-2 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.schoolAudit")}</Link></li>
+                 <li><Link href="/#how-it-works" className="block min-h-[44px] min-w-[44px] py-2 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.howItWorks")}</Link></li>
+                 <li><Link href="/#authority" className="block min-h-[44px] min-w-[44px] py-2 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.authority")}</Link></li>
+                 <li><Link href="/#testimonials" className="block min-h-[44px] min-w-[44px] py-2 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.testimonials")}</Link></li>
+                 <li><Link href="/#slp-resources" className="block min-h-[44px] min-w-[44px] py-2 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.slpResources")}</Link></li>
+                 <li><Link href="/#get-started" className="block min-h-[44px] min-w-[44px] py-2 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.pricing")}</Link></li>
                </ul>
             </div>
 
@@ -47,9 +52,9 @@ export function Footer() {
              <div className="md:col-span-4 lg:col-span-4 text-left">
                <h4 className="font-display font-bold text-zinc-900 dark:text-white mb-4 md:mb-6">{t("columns.legal")}</h4>
                <ul className="space-y-4 text-sm font-medium text-zinc-600 dark:text-zinc-400">
-                 <li><Link href="/privacy" className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.privacy")}</Link></li>
-                 <li><Link href="/terms" className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.terms")}</Link></li>
-                 <li><a href="mailto:support@skillio.com" className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.contact")}</a></li>
+                 <li><Link href="/privacy" className="block min-h-[44px] min-w-[44px] py-2 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.privacy")}</Link></li>
+                 <li><Link href="/terms" className="block min-h-[44px] min-w-[44px] py-2 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.terms")}</Link></li>
+                 <li><a href="mailto:support@skillio.com" className="block min-h-[44px] min-w-[44px] py-2 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">{t("links.contact")}</a></li>
                </ul>
             </div>
           </div>

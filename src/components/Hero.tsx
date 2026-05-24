@@ -10,7 +10,7 @@ export function Hero() {
   const tMatrix = useTranslations("SubscriptionMatrix");
 
   return (
-    <div className="relative pt-12 pb-6 md:pt-20 md:pb-8 lg:pt-32 lg:pb-12">
+    <div id="hero" className="relative pt-12 pb-6 md:pt-20 md:pb-8 lg:pt-32 lg:pb-12">
       <Container>
         <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[80%] h-[60%] bg-teal-500/5 blur-3xl rounded-full -z-10 dark:bg-teal-500/10" />
@@ -56,13 +56,13 @@ export function Hero() {
                         {tMatrix(`hero.${card.key}.badge`)}
                       </span>
                     </div>
-                    <h3
+                    <div
                       className={`text-2xl font-bold font-display tracking-tight mb-1.5 md:mb-2 ${
                         isFeatured ? "text-zinc-900 dark:text-zinc-50" : "text-zinc-800 dark:text-zinc-200"
                       }`}
                     >
                       {tMatrix(`hero.${card.key}.name`)}
-                    </h3>
+                    </div>
                     <div className="flex items-baseline gap-1.5 mb-3 md:mb-4">
                       <span
                         className={`font-display ${
@@ -82,15 +82,12 @@ export function Hero() {
                     </p>
                   </div>
 
-                  <button
-                    onClick={(e) => {
-                      e.preventDefault();
-                      window.location.hash = card.ctaActionHash;
-                    }}
-                    className={`w-full py-2.5 sm:py-3 px-4 sm:px-6 text-center font-display font-bold text-xs uppercase tracking-wider rounded-2xl cursor-pointer ${card.ctaClass}`}
+                  <a
+                    href={card.ctaActionHash}
+                    className={`w-full min-h-[44px] py-2.5 sm:py-3 px-4 sm:px-6 text-center font-display font-bold text-xs uppercase tracking-wider rounded-2xl cursor-pointer flex items-center justify-center ${card.ctaClass}`}
                   >
                     {tMatrix(`hero.${card.key}.cta`)}
-                  </button>
+                  </a>
                 </div>
               );
             })}

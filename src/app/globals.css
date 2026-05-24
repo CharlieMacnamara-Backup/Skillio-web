@@ -4,11 +4,15 @@
 
 @plugin "@tailwindcss/typography";
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --skillio-indigo: #6366f1;
   --skillio-purple: #8b5cf6;
   --skillio-teal: #14b8a6;
-  
+
   /* Fitzgerald Key Colors */
   --aac-social: #facc15;
   --aac-action: #ec4899;
@@ -19,6 +23,34 @@
 body {
   font-family: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system, sans-serif;
   @apply bg-zinc-50 text-zinc-900 antialiased dark:bg-black dark:text-zinc-100;
+}
+
+/* Skip to main content link for accessibility */
+.skip-to-main {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #14b8a6;
+  color: white;
+  padding: 8px 16px;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
+.skip-to-main:focus {
+  top: 0;
+}
+
+/* Focus visible styles for keyboard navigation */
+*:focus-visible {
+  outline: 2px solid #14b8a6;
+  outline-offset: 2px;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #14b8a6;
+  outline-offset: 2px;
 }
 
 .font-display {
