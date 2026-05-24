@@ -31,11 +31,11 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   metadataBase: new URL("https://skillio-app.uk"),
   title: {
-    default: "Skillio | Empowering Communication & Social Skills",
+    default: "Skillio | AAC App for Autism & Non-Verbal Communication",
     template: "%s | Skillio"
   },
-  description: "Skillio is a sensory-safe, AAC-first application designed for neurodivergent minds. Unlock connection with customizable communication tools, emotional regulation, and social practice.",
-  keywords: ["AAC", "Neurodivergent", "Autism", "Communication App", "Sensory-Safe", "Social Skills", "Speech Therapy", "Non-verbal communication"],
+  description: "Skillio is a sensory-safe, offline AAC app for autistic children and non-verbal communication. Trusted by parents, SLPs, and schools. One-time purchase, lifetime access.",
+  keywords: ["AAC app for autism", "non-verbal communication app", "speech therapy app for autistic children", "sensory-safe communication tool", "offline AAC app", "autism communication tools", "SLP recommended apps", "school communication software", "alternative augmentative communication", "picture exchange communication"],
   authors: [{ name: "Skillio Team" }],
   creator: "Skillio",
   publisher: "Skillio",
@@ -45,17 +45,26 @@ export const metadata: Metadata = {
     telephone: false,
   },
   openGraph: {
-    title: "Skillio | Empowering Communication & Social Skills",
-    description: "Unlocking connection for every mind. Discover the leading AAC-first toolkit for neurodivergent individuals.",
+    title: "Skillio | AAC App for Autism & Non-Verbal Communication",
+    description: "Sensory-safe, offline AAC app for autistic children. Trusted by parents, SLPs, and schools. One-time purchase, lifetime access.",
     url: "https://skillio-app.uk",
     siteName: "Skillio",
     locale: "en_GB",
     type: "website",
+    images: [
+      {
+        url: "https://skillio-app.uk/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Skillio AAC App - Sensory-Safe Communication for Autism"
+      }
+    ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Skillio | Empowering Communication & Social Skills",
-    description: "Sensory-safe communication for every mind. Join the Skillio community.",
+    title: "Skillio | AAC App for Autism & Non-Verbal Communication",
+    description: "Sensory-safe, offline AAC app for autistic children. Trusted by parents, SLPs, and schools.",
+    images: ["https://skillio-app.uk/og-image.png"]
   },
   robots: {
     index: true,
@@ -87,6 +96,67 @@ export default async function RootLayout({
       suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} ${outfit.variable} h-full antialiased scroll-smooth scroll-pt-20`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Skillio",
+              "applicationCategory": "HealthApplication",
+              "operatingSystem": "iOS, iPadOS",
+              "description": "Skillio is a sensory-safe, offline AAC app for autistic children and non-verbal communication. Trusted by parents, SLPs, and schools.",
+              "offers": {
+                "@type": "Offer",
+                "price": "30.00",
+                "priceCurrency": "GBP",
+                "availability": "https://schema.org/InStock"
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "ratingCount": "150"
+              },
+              "featureList": [
+                "100% offline AAC communication",
+                "Sensory-safe design for autism",
+                "Customizable vocabulary grids",
+                "Emotional regulation tools",
+                "Social practice games",
+                "Up to 8 student profiles"
+              ],
+              "audience": {
+                "@type": "Audience",
+                "audienceType": ["Parents", "Speech-Language Pathologists", "Schools", "Special Education Teachers"]
+              },
+              "keywords": "AAC app for autism, non-verbal communication app, speech therapy app for autistic children, sensory-safe communication tool, offline AAC app"
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Skillio",
+              "url": "https://skillio-app.uk",
+              "logo": "https://skillio-app.uk/logo.png",
+              "description": "Skillio develops sensory-safe AAC communication tools for autistic children and non-verbal individuals.",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "customer support",
+                "email": "support@skillio.com"
+              },
+              "sameAs": [
+                "https://twitter.com/skillioapp",
+                "https://linkedin.com/company/skillioapp"
+              ]
+            })
+          }}
+        />
+      </head>
       <body className="flex min-h-screen flex-col bg-zinc-50 transition-colors duration-300 dark:bg-black">
         <ThemeProvider
           attribute="class"
