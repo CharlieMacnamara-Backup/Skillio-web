@@ -1,7 +1,6 @@
 import { Hero } from "@/components/Hero";
 import { AACDemo } from "@/components/AACDemo";
 import { ProductShowcase } from "@/components/ProductShowcase";
-import { SubscriptionMatrix } from "@/components/SubscriptionMatrix";
 import { SchoolAuditMatrix } from "@/components/SchoolAuditMatrix";
 import { CTASection } from "@/components/CTASection";
 
@@ -11,8 +10,6 @@ export default function Home() {
       <Hero />
       
       <AACDemo />
-
-      <SubscriptionMatrix />
 
       <SchoolAuditMatrix />
 
