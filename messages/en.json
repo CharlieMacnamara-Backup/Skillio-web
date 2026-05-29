@@ -16,7 +16,7 @@
     "badge": "No Subscriptions. No Cloud Latency.",
     "titlePrefix": "AAC App for Autism:",
     "titleSuffix": "A Lifetime Voice for Every Student",
-    "description": "A secure, 100% offline speech environment. Eliminate school Wi-Fi dependency, subscription paywalls, and student data tracking with this sensory-safe communication tool.",
+    "description": "100% offline. No Wi-Fi required, no subscriptions, and zero tracking. Just sensory-safe communication that works anywhere.",
     "cta": {
       "getStarted": "Get Started for £30",
       "howItWorks": "See How it Works"
@@ -27,20 +27,20 @@
   "Features": {
     "sensory": {
       "title": "Sensory-Safe Boards",
-      "description": "Soft color palettes and structured grids prevent visual fatigue during long classroom sessions."
+      "description": "Soft colors and structured grids prevent visual fatigue."
     },
     "regulation": {
       "title": "Focus Spaces",
-      "description": "Instant, offline visual breathing guides and tactile fidgets ground focus inside the workspace."
+      "description": "Built-in breathing guides and digital fidgets ground focus instantly."
     },
     "play": {
       "title": "Pressure-Free Play",
-      "description": "Fosters low-pressure social interaction and turn-taking through integrated communication games."
+      "description": "Build social skills through low-pressure communication games."
     }
   },
   "AACDemo": {
     "title": "Built for Classroom Realities",
-    "description": "Stop wrestling with dropped school Wi-Fi and locked student profiles. This speech therapy app for autistic children is handcrafted to eliminate setup friction, run entirely offline, and speak without delay.",
+    "description": "No dropped Wi-Fi. No locked profiles. Just instant, offline speech.",
     "tabs": {
       "grid": "Speech Board",
       "studio": "Vocabulary Studio",
@@ -50,83 +50,83 @@
     "features": {
       "grid": {
         "title": "Clinical Core Speech Board",
-        "description": "Tactile, Fitzgerald Key color-coded grid designed to lower cognitive overhead and speed up sentence construction.",
+        "description": "Fitzgerald Key color-coding accelerates sentence construction.",
         "badge": "Clinical Standard",
-        "bullet1": "High-contrast Fitzgerald layouts structure parts of speech clearly",
-        "bullet2": "Runs entirely offline with zero dependence on classroom Wi-Fi",
-        "bullet3": "Sub-second speech synthesis prevents physical or tactile frustration"
+        "bullet1": "High-contrast layouts structure speech clearly",
+        "bullet2": "100% offline—zero Wi-Fi dependencies",
+        "bullet3": "Sub-second speech response eliminates frustration"
       },
       "studio": {
         "title": "Custom Vocabulary Studio",
-        "description": "Enables teachers and speech therapists to customize grids instantly on-device without internet access.",
+        "description": "Modify grids instantly on-device without internet.",
         "badge": "On-Device",
-        "bullet1": "Build custom color-coded tiles with built-in icons in seconds",
-        "bullet2": "On-device synonym assistant broadens user vocabulary naturally",
-        "bullet3": "Export and sync customized boards across school tablets seamlessly"
+        "bullet1": "Create custom icon tiles in seconds",
+        "bullet2": "Synonym assistant expands vocabulary naturally",
+        "bullet3": "Sync configurations across tablets"
       },
       "sensory": {
         "title": "Calm Sensory Regulation",
-        "description": "Combats classroom overstimulation with physical grounding exercises housed directly inside the speech board.",
+        "description": "De-escalate overstimulation with grounding exercises right on the board.",
         "badge": "Sensory-Safe",
-        "bullet1": "Paced visual breathing tools expand and contract to slow heart rate",
-        "bullet2": "Tactile digital fidgets ground motor anxiety without disrupting peers",
-        "bullet3": "Instant visual distress cards express emotional states in one tap"
+        "bullet1": "Visual breathing tools pace heart rate",
+        "bullet2": "Digital fidgets soothe anxiety without disruption",
+        "bullet3": "One-tap distress cards communicate urgent emotions"
       },
       "accessibility": {
         "title": "VPP-Ready Accessibility",
-        "description": "Engineered for rapid institutional deployment without continuous accounts or login overhead.",
+        "description": "Deploy instantly. No accounts, no logins, no IT bottlenecks.",
         "badge": "IT & Admin Friendly",
-        "bullet1": "Fully compatible with Apple Volume Purchase Program (VPP)",
-        "bullet2": "Launches instantly without requiring school email accounts or verification",
-        "bullet3": "Adapts target sizes and touch timings to physical dexterity needs"
+        "bullet1": "Apple VPP compatible for bulk deployment",
+        "bullet2": "Zero school email addresses required",
+        "bullet3": "Adjustable touch targets accommodate motor needs"
       }
     }
   },
   "ProductShowcase": {
     "title": "A Complete Toolkit.",
-    "description": "A single clinical workspace containing everything required for daily communication, emotional regulation, and social practice. This sensory-safe communication tool integrates seamlessly into speech therapy routines.",
-    "secondaryImageAlt": "Secondary Skillio interface feature showing customization",
-    "additionalImageAlt": "Additional Skillio interface feature showing synonyms",
+    "description": "Daily communication, emotional regulation, and social practice in one space.",
+    "secondaryImageAlt": "Skillio grid customization interface",
+    "additionalImageAlt": "Skillio synonym assistant view",
     "features": {
       "voice": {
         "title": "Tactile Speech",
-        "description": "Build sentences instantly. Fully offline symbol grids powered by local, private voice synthesis.",
-        "imageAlt": "Skillio AAC Communication Board with customizable grid and symbol support"
+        "description": "Build sentences via offline grids with private voice synthesis.",
+        "imageAlt": "Skillio AAC communication board with symbol support"
       },
       "breath": {
         "title": "Visual Breathing",
-        "description": "Regulate and center. Visual pacing guides ground motor focus when sensory noise overwhelms.",
-        "imageAlt": "Skillio Breathing Control Visual Tool for sensory regulation"
+        "description": "Regulate and focus when sensory noise overwhelms.",
+        "imageAlt": "Skillio visual breathing tool"
       },
       "frame": {
         "title": "Emotion Cards",
-        "description": "Express the moment. Identify and share feelings safely, building emotional self-awareness.",
-        "imageAlt": "Skillio Emotion Cards Interface showing interactive social practice"
+        "description": "Express feelings safely to build emotional awareness.",
+        "imageAlt": "Skillio interactive emotion cards"
       },
       "studio": {
         "title": "Echo Studio",
-        "description": "Practice sounds privately. Record and analyze target phrases locally with zero cloud sharing.",
-        "imageAlt": "Skillio Echo Studio Recording and Voice Analysis Interface"
+        "description": "Practice sounds and analyze speech locally. No cloud sharing.",
+        "imageAlt": "Skillio secure local voice recording interface"
       },
       "play": {
         "title": "Social Games",
-        "description": "Build connection. Share pressure-free classroom games designed for natural turn-taking.",
-        "imageAlt": "Tik-Tac-Toe Interactive Game"
+        "description": "Build connections through natural, turn-taking play.",
+        "imageAlt": "Interactive tic-tac-toe game"
       }
     }
   },
   "CTASection": {
     "title": "Communicate on your terms.",
-    "description": "Your voice stays with you. No subscriptions. No tracking. Lifetime access for £30.",
+    "description": "Your voice belongs to you. No subscriptions. No tracking. £30 forever.",
     "cta": {
       "appStore": "Download on the App Store",
       "demo": "Schedule a Demo"
     },
-    "footer": "Available for iOS and iPadOS. Android version coming soon."
+    "footer": "Available for iOS and iPadOS. Android coming soon."
   },
   "Footer": {
     "logoAlt": "Skillio Logo",
-    "description": "Empowering individuals through sensory-safe communication tools and meaningful social practice. Join us in building a more inclusive world.",
+    "description": "Sensory-safe communication tools for an inclusive world.",
     "columns": {
       "product": "Product",
       "legal": "Support & Legal"
@@ -147,39 +147,39 @@
     "copyright": "© 2026 Skillio App. All rights reserved."
   },
   "AuthoritySection": {
-    "title": "Built on Evidence, Designed for Real Classrooms",
+    "title": "Evidence-Based Design for Real Classrooms",
     "evidence": {
-      "title": "AAC Effectiveness: Research-Backed Communication",
-      "description": "Research consistently demonstrates that Augmentative and Alternative Communication (AAC) systems significantly improve communication outcomes for non-verbal autistic children. Studies published in the Journal of Autism and Developmental Disorders and AAC Journal show that early AAC intervention increases speech production, reduces challenging behaviors, and enhances social interaction skills. Skillio implements evidence-based practices including Fitzgerald Key color-coding, semantic organization, and motor planning principles validated by clinical research.",
-      "reference": "References: Light, J. et al. (2023). AAC interventions for autism: A systematic review. Journal of Autism and Developmental Disorders. 53(4), 1234-1256."
+      "title": "Research-Backed AAC",
+      "description": "AAC systems improve communication for non-verbal autistic children, increasing speech, reducing behavioral challenges, and enhancing social skills. Skillio utilizes Fitzgerald Key color-coding, semantic organization, and motor planning validated by clinical research.",
+      "reference": "Reference: Light, J. et al. (2023). AAC interventions for autism: A systematic review. Journal of Autism and Developmental Disorders, 53(4), 1234-1256."
     },
     "disclaimer": {
-      "title": "Important Medical & Educational Disclaimer",
-      "description": "Skillio is an AAC communication tool designed to support, not replace, professional speech therapy and educational interventions. The app does not provide medical advice, diagnosis, or treatment. Parents, caregivers, and educators should consult with qualified Speech-Language Pathologists (SLPs), occupational therapists, and special education professionals to determine appropriate communication strategies for individual needs. Skillio is intended as a supplementary tool within a comprehensive therapeutic and educational plan."
+      "title": "Educational Disclaimer",
+      "description": "Skillio supplements, rather than replaces, professional therapy. Consult qualified SLPs, occupational therapists, and educators for individualized care plans."
     },
     "parents": {
       "title": "For Parents",
-      "benefit1": "Give your child a voice without monthly subscription fees",
-      "benefit2": "100% offline operation works anywhere—no Wi-Fi needed",
-      "benefit3": "Sensory-safe design reduces visual overload and anxiety",
-      "benefit4": "Privacy-first: no data collection, everything stays on-device",
-      "benefit5": "Up to 8 student profiles for families with multiple children"
+      "benefit1": "Give your child a voice with zero monthly fees.",
+      "benefit2": "Works anywhere without Wi-Fi.",
+      "benefit3": "Sensory-safe layout minimizes sensory overload.",
+      "benefit4": "Privacy-first design involves zero data collection.",
+      "benefit5": "Manage up to 8 distinct child profiles."
     },
     "slps": {
       "title": "For Speech-Language Pathologists",
-      "benefit1": "Fitzgerald Key color-coded grids support clinical AAC workflows",
-      "benefit2": "Customizable vocabulary for individual therapy goals",
-      "benefit3": "On-device synonym assistant expands vocabulary naturally",
-      "benefit4": "Sub-second local voice synthesis eliminates latency frustration",
-      "benefit5": "Export/sync customized boards across multiple devices"
+      "benefit1": "Fitzgerald Key grids align with clinical workflows.",
+      "benefit2": "Tailor vocabulary layouts to specific therapy goals.",
+      "benefit3": "Synonym assistant naturally expands vocabulary.",
+      "benefit4": "Sub-second voice rendering eliminates frustration.",
+      "benefit5": "Sync boards instantly across multiple devices."
     },
     "schools": {
       "title": "For Schools & Institutions",
-      "benefit1": "VPP-ready for Apple Volume Purchase Program deployment",
-      "benefit2": "No student email accounts or login requirements",
-      "benefit3": "Launches instantly—no setup friction in classroom settings",
-      "benefit4": "Adaptable touch targets for students with motor differences",
-      "benefit5": "One-time purchase—no budget-draining subscription fees"
+      "benefit1": "VPP-ready for immediate institutional deployment.",
+      "benefit2": "No student email addresses or accounts required.",
+      "benefit3": "Launches instantly with zero classroom configuration.",
+      "benefit4": "Adaptable touch targets accommodate motor skill needs.",
+      "benefit5": "One-time purchase eliminates recurring software bills."
     }
   },
   "ThemeToggle": {
@@ -193,78 +193,78 @@
   "Privacy": {
     "back": "Back to Home",
     "title": "Privacy Policy",
-    "subtitle": "Communication is a human right. We protect your data as fiercely as your voice.",
+    "subtitle": "Communication is a human right. We protect your data.",
     "effective": "Effective: March 30, 2026",
     "sections": {
       "collection": {
         "title": "1. Data Ownership",
-        "content": "Skillio runs entirely on-device. We never collect, upload, or share voice recordings or custom student vocabulary grids."
+        "content": "Skillio operates completely on-device. We never collect, upload, or share voice recordings or vocabulary grids."
       },
       "personal": {
         "title": "2. Simple Licensing",
-        "content": "We require only an email to activate licenses. We never track, sell, or share student or school identity details."
+        "content": "We only require an email to activate licenses. Student and institutional data are never tracked or shared."
       },
       "usage": {
         "title": "3. Minimal Analytics",
-        "content": "Anonymized, local crash telemetry helps us maintain tablet performance. No profiles are built, and no ads are served."
+        "content": "Anonymized local crash telemetry optimizes performance. No profiling, tracking, or ads."
       },
       "security": {
         "title": "4. Local Encryption",
-        "content": "Settings and speech files are encrypted on-device. Synchronization tools utilize secure private channels."
+        "content": "Settings and speech data are encrypted directly on-device. Sync tools use secure, private channels."
       },
       "rights": {
         "title": "5. Instant Deletion",
-        "content": "You own your voice. Export layout templates or erase account configurations instantly in app settings."
+        "content": "You own your voice. Export configurations or erase all data instantly."
       },
       "thirdParty": {
         "title": "6. Caregiver Sync",
-        "content": "Sync capabilities use end-to-end encryption to ensure only authorized caregivers and SLPs can access student boards."
+        "content": "End-to-end encryption restricts board access to authorized caregivers and SLPs."
       },
       "contact": {
         "title": "7. Support",
-        "content": "Reach our privacy team directly at privacy@skillio.com for any questions."
+        "content": "Contact privacy@skillio.com for inquiries."
       }
     }
   },
   "Terms": {
     "back": "Back to Home",
     "title": "Terms & Conditions",
-    "subtitle": "Simple rules for a community built on respect and accessibility.",
+    "subtitle": "Simple rules for respect and accessibility.",
     "revised": "Last Revised: March 30, 2026",
     "sections": {
       "acceptance": {
         "title": "1. Acceptance",
-        "content": "By using Skillio, you agree to these clear terms."
+        "content": "Using Skillio constitutes agreement to these terms."
       },
       "service": {
         "title": "2. The Service",
-        "content": "Skillio provides local speech grids, sensory regulation spaces, and educational turn-taking games."
+        "content": "Skillio provides offline speech grids, sensory regulation features, and educational games."
       },
       "responsibilities": {
         "title": "3. Responsibilities",
-        "content": "Keep login details secure. Use the workspace in compliance with standard classroom and school guidelines."
+        "content": "Secure your login credentials and use Skillio in compliance with institutional guidelines."
       },
       "intellectual": {
         "title": "4. License",
-        "content": "We license the Skillio application to you for home, clinic, or institutional classroom use."
+        "content": "We grant licenses for home, clinic, or classroom environments."
       },
       "liability": {
         "title": "5. Warranty",
-        "content": "We build Skillio to be fast and stable. The software is provided as-is without liability for hardware faults."
+        "content": "Skillio is engineered for speed and stability, provided as-is without hardware liability."
       },
       "law": {
         "title": "6. Governing Law",
-        "content": "These terms follow the laws of the jurisdiction where Skillio is registered."
+        "content": "These terms follow the laws of our registration jurisdiction."
       },
       "contact": {
         "title": "7. Legal Contact",
-        "content": "Contact support at support@skillio.com with any licensing or legal inquiries."
+        "content": "Contact support@skillio.com for licensing or compliance inquiries."
       }
     }
   },
   "SubscriptionMatrix": {
     "heading": "Speech without expiration dates.",
-    "subheading": "Credit card failures or budget shifts shouldn't silence a student. Skillio provides a clinical-grade offline AAC workspace for a simple, single-purchase lifetime license.",
+    "subheading": "A credit card failure shouldn't silence a student. Clinical-grade AAC for a single, one-time purchase.",
     "toggle": {
       "corporate": "App Store Competitors",
       "alternatives": "Skillio Tiers",
@@ -279,7 +279,7 @@
         "price": "£0.00",
         "period": "forever",
         "badge": "GET STARTED",
-        "desc": "100% offline, 1 active profile, standard symbols, and basic sensory guides.",
+        "desc": "100% offline, 1 active profile, standard core symbols, and basic sensory guides.",
         "cta": "Start for Free"
       },
       "lifetime": {
@@ -287,7 +287,7 @@
         "price": "£30.00",
         "period": "one-time",
         "badge": "ALL-ACCESS LIFETIME",
-        "desc": "Up to 8 profiles, all games unlocked, clinical regulation, and lifetime upgrades.",
+        "desc": "8 profiles, all communication games, full sensory regulation tools, and lifetime upgrades.",
         "cta": "Unlock Lifetime Voice"
       }
     },
@@ -314,15 +314,15 @@
         "pricing": "£XXX.XX upfront",
         "yearlyPricing": "Alternative: £XX.XX/year",
         "reviews": "XK+ Ratings",
-        "trap": "Locked to one student profile."
+        "trap": "Locked to a single profile."
       },
       "tdsnap": {
         "name": "Competitor B",
         "developer": "Developer B",
-        "pricing": "£X.XX/month speech",
+        "pricing": "£X.XX/month",
         "yearlyPricing": "Total: £XXX.XX/year",
         "reviews": "XXX+ Ratings",
-        "trap": "Bricks voice if payments fail."
+        "trap": "Bricks user voice if payments lapse."
       },
       "touchchat": {
         "name": "Competitor C",
@@ -330,7 +330,7 @@
         "pricing": "£XXX.XX bundle",
         "yearlyPricing": "Alternative: £XX.XX/year",
         "reviews": "Standard Legacy",
-        "trap": "Heavy tablet boot latency."
+        "trap": "Heavy boot latency on startup."
       }
     },
     "features": {
@@ -339,88 +339,88 @@
       "profiles": "Independent Profiles",
       "vocabulary": "Custom Vocabulary",
       "proloquo": {
-        "offline": "Requires periodic cloud check",
-        "speed": "15s+ cold boot on iPads",
-        "profiles": "Locked to single student profile",
+        "offline": "Requires cloud check",
+        "speed": "15s+ cold boot",
+        "profiles": "Locked to single profile",
         "vocabulary": "Locked grids / paid add-ons"
       },
       "tdsnap": {
-        "offline": "Fails without active cloud check",
-        "speed": "Cloud check latency at boot",
-        "profiles": "Paywalled profile templates",
+        "offline": "Fails without internet connection",
+        "speed": "Cloud boot latency",
+        "profiles": "Paywalled templates",
         "vocabulary": "Locked editor / limited symbols"
       },
       "touchchat": {
-        "offline": "Requires active device check",
-        "speed": "Severe lag on legacy school tablets",
-        "profiles": "Tied to single hardware device",
-        "vocabulary": "Paid add-ons for custom grids"
+        "offline": "Requires recurring device verification",
+        "speed": "Severe lag on older hardware",
+        "profiles": "Tied to a single device",
+        "vocabulary": "Paid add-ons required"
       },
       "free": {
         "offline": "100% offline, local synthesis",
-        "speed": "Sub-second instant load",
-        "profiles": "1 active student profile",
+        "speed": "Sub-second load",
+        "profiles": "1 active profile",
         "vocabulary": "500+ standard symbols"
       },
       "lifetime": {
-        "offline": "100% offline, zero latency",
-        "speed": "Instant boot, zero audio delay",
+        "offline": "100% offline, zero lag",
+        "speed": "Instant boot",
         "profiles": "Up to 8 active profiles",
-        "vocabulary": "Unlimited symbols & recording"
+        "vocabulary": "Unlimited symbols & custom audio recording"
       }
     }
   },
   "TestimonialsSection": {
     "title": "Trusted by Families, Clinicians, and Schools",
     "parent": {
-      "quote": "Skillio has been transformative for our son. The sensory-safe design means he actually wants to use it, and the offline capability works perfectly during our travels. The one-time purchase was a relief compared to subscription apps we tried before.",
+      "quote": "Skillio transformed our son's communication. He actually wants to use it, and the offline mode is flawless during travel. The one-time fee was a massive relief after managing recurring app subscriptions.",
       "initials": "SM",
       "name": "Sarah Mitchell",
-      "role": "Parent of 7-year-old with autism"
+      "role": "Parent"
     },
     "slp": {
-      "quote": "As a speech-language pathologist working with autistic children for 15 years, I appreciate how Skillio balances clinical functionality with sensory considerations. The Fitzgerald Key implementation is accurate, and the offline reliability is crucial for school-based therapy sessions.",
+      "quote": "Skillio balances clinical utility with genuine sensory care. The Fitzgerald Key integration is accurate, and offline reliability is mandatory in a busy school environment.",
       "initials": "DR",
       "name": "Dr. Rebecca Chen",
       "role": "Speech-Language Pathologist, NHS"
     },
     "school": {
-      "quote": "We deployed Skillio across our special education department using Apple VPP. The 8-profile limit per license works well for our classroom setups, and the zero-cloud dependency means our students can communicate even during network outages.",
+      "quote": "We deployed Skillio via Apple VPP across our special education department. Managing 8 profiles per device works beautifully for our classrooms, and zero cloud dependency keeps students communicating during network failures.",
       "initials": "JT",
       "name": "James Thompson",
       "role": "Special Education Coordinator, London Primary School"
     }
   },
   "SLPResourcesSection": {
-    "title": "Clinical Resources for Speech-Language Pathologists",
-    "description": "Download evidence-based implementation guides, vocabulary customization templates, and progress tracking tools designed for clinical AAC workflows.",
+    "title": "Clinical Resources for SLPs",
+    "description": "Download evidence-based guides, templates, and tracking tools optimized for your AAC workflows.",
     "resources": {
       "implementationGuide": {
         "title": "Clinical Implementation Guide",
-        "description": "Step-by-step guide for integrating Skillio into therapy sessions, including goal-setting frameworks and progress benchmarks aligned with ASHA standards.",
+        "description": "Integrate Skillio into therapy using goal-setting frameworks and ASHA-aligned benchmarks.",
         "cta": "Download PDF"
       },
       "vocabularyGuide": {
         "title": "Vocabulary Customization Guide",
-        "description": "Best practices for creating personalized vocabulary grids using the Fitzgerald Key system, with symbol selection strategies for different communication levels.",
+        "description": "Build custom Fitzgerald Key grids with symbol strategies across all ability levels.",
         "cta": "Download PDF"
       },
       "progressTemplate": {
         "title": "Progress Tracking Template",
-        "description": "Standardized assessment template for tracking AAC skill development, vocabulary expansion, and communication frequency over time.",
+        "description": "Monitor AAC milestones, vocabulary growth, and interaction frequencies over time.",
         "cta": "Download Template"
       },
       "schoolDeployment": {
         "title": "School Deployment Guide",
-        "description": "Technical guide for IT administrators and special education coordinators on deploying Skillio via Apple VPP across multiple devices and classrooms.",
+        "description": "Step-by-step instructions for deploying Skillio smoothly via Apple VPP.",
         "cta": "Download Guide"
       }
     },
     "research": {
-      "title": "Evidence-Based Research References",
-      "journal1": "Journal of Autism and Developmental Disorders - AAC effectiveness studies",
-      "journal2": "Augmentative and Alternative Communication - Clinical implementation research",
-      "journal3": "American Speech-Language-Hearing Association (ASHA) - AAC practice guidelines"
+      "title": "Evidence-Based References",
+      "journal1": "Journal of Autism and Developmental Disorders - AAC Effectiveness",
+      "journal2": "Augmentative and Alternative Communication - Clinical Implementation",
+      "journal3": "ASHA - AAC Practice Guidelines"
     }
   }
 }

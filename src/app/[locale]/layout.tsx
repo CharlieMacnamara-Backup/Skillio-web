@@ -133,7 +133,6 @@ export default async function RootLayout({
         />
       </head>
       <body className="flex min-h-screen flex-col bg-zinc-50 transition-colors duration-300 dark:bg-black">
-        <SkipToMain />
         <Analytics />
         <ThemeProvider
           attribute="class"
@@ -147,6 +146,7 @@ export default async function RootLayout({
             </div>
           </div>
           <NextIntlClientProvider messages={messages}>
+            <SkipToMain />
             <Header />
             <div className="relative flex flex-col flex-1">
                <main id="main-content" className="flex-auto">{children}</main>

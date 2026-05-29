@@ -15,8 +15,8 @@ export function TestimonialsSection() {
           <div className="space-y-8 md:space-y-12">
             {/* Parent Testimonial */}
             <figure className="card-soft p-6 sm:p-8">
-              <blockquote className="text-base text-zinc-600 dark:text-zinc-400 leading-relaxed mb-6">
-                <p className="mb-4">{t("parent.quote")}</p>
+              <blockquote className="text-base text-zinc-600 dark:text-zinc-400 leading-relaxed mb-6 md:mb-8">
+                <p className="mb-4 md:mb-6">{t("parent.quote")}</p>
               </blockquote>
               <figcaption className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-teal-100 dark:bg-teal-900/30 flex items-center justify-center text-teal-600 dark:text-teal-400 font-bold text-lg">
@@ -35,8 +35,8 @@ export function TestimonialsSection() {
 
             {/* SLP Testimonial */}
             <figure className="card-soft p-6 sm:p-8">
-              <blockquote className="text-base text-zinc-600 dark:text-zinc-400 leading-relaxed mb-6">
-                <p className="mb-4">{t("slp.quote")}</p>
+              <blockquote className="text-base text-zinc-600 dark:text-zinc-400 leading-relaxed mb-6 md:mb-8">
+                <p className="mb-4 md:mb-6">{t("slp.quote")}</p>
               </blockquote>
               <figcaption className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-indigo-100 dark:bg-indigo-900/30 flex items-center justify-center text-indigo-600 dark:text-indigo-400 font-bold text-lg">
@@ -55,8 +55,8 @@ export function TestimonialsSection() {
 
             {/* School Testimonial */}
             <figure className="card-soft p-6 sm:p-8">
-              <blockquote className="text-base text-zinc-600 dark:text-zinc-400 leading-relaxed mb-6">
-                <p className="mb-4">{t("school.quote")}</p>
+              <blockquote className="text-base text-zinc-600 dark:text-zinc-400 leading-relaxed mb-6 md:mb-8">
+                <p className="mb-4 md:mb-6">{t("school.quote")}</p>
               </blockquote>
               <figcaption className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center text-purple-600 dark:text-purple-400 font-bold text-lg">

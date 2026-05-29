@@ -18,10 +18,10 @@ export function SLPResourcesSection() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             {/* Clinical Implementation Guide */}
             <article className="card-soft p-6">
-              <h3 className="text-lg font-bold font-display text-zinc-900 dark:text-white mb-3">
+              <h3 className="text-lg font-bold font-display text-zinc-900 dark:text-white mb-3 md:mb-4">
                 {t("resources.implementationGuide.title")}
               </h3>
-              <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4 leading-relaxed">
+              <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4 md:mb-6 leading-relaxed">
                 {t("resources.implementationGuide.description")}
               </p>
               <a
@@ -37,10 +37,10 @@ export function SLPResourcesSection() {
 
             {/* Vocabulary Customization Guide */}
             <article className="card-soft p-6">
-              <h3 className="text-lg font-bold font-display text-zinc-900 dark:text-white mb-3">
+              <h3 className="text-lg font-bold font-display text-zinc-900 dark:text-white mb-3 md:mb-4">
                 {t("resources.vocabularyGuide.title")}
               </h3>
-              <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4 leading-relaxed">
+              <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4 md:mb-6 leading-relaxed">
                 {t("resources.vocabularyGuide.description")}
               </p>
               <a
@@ -56,10 +56,10 @@ export function SLPResourcesSection() {
 
             {/* Progress Tracking Template */}
             <article className="card-soft p-6">
-              <h3 className="text-lg font-bold font-display text-zinc-900 dark:text-white mb-3">
+              <h3 className="text-lg font-bold font-display text-zinc-900 dark:text-white mb-3 md:mb-4">
                 {t("resources.progressTemplate.title")}
               </h3>
-              <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4 leading-relaxed">
+              <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4 md:mb-6 leading-relaxed">
                 {t("resources.progressTemplate.description")}
               </p>
               <a
@@ -75,10 +75,10 @@ export function SLPResourcesSection() {
 
             {/* School Deployment Guide */}
             <article className="card-soft p-6">
-              <h3 className="text-lg font-bold font-display text-zinc-900 dark:text-white mb-3">
+              <h3 className="text-lg font-bold font-display text-zinc-900 dark:text-white mb-3 md:mb-4">
                 {t("resources.schoolDeployment.title")}
               </h3>
-              <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4 leading-relaxed">
+              <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4 md:mb-6 leading-relaxed">
                 {t("resources.schoolDeployment.description")}
               </p>
               <a
@@ -95,7 +95,7 @@ export function SLPResourcesSection() {
 
           {/* Evidence-Based Research References */}
           <div className="mt-12 md:mt-16">
-            <h3 className="text-xl font-bold font-display text-zinc-900 dark:text-white mb-6">
+            <h3 className="text-xl font-bold font-display text-zinc-900 dark:text-white mb-6 md:mb-8">
               {t("research.title")}
             </h3>
             <ul className="space-y-4">
